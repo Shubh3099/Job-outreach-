@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-10",
+  "updated": "2026-08-11",
   "summary": {
-    "applied": 155,
+    "applied": 157,
     "rejected": 38,
     "awaiting": 108,
     "blocked": 18
@@ -1678,6 +1678,20 @@
       "role": "Team Lead",
       "date": "2026-08-10",
       "source": "LinkedIn Easy Apply",
+      "status": "applied"
+    },
+    {
+      "company": "Policybazaar.com",
+      "role": "Associate Team Lead",
+      "date": "2026-08-11",
+      "source": "LinkedIn Easy Apply",
+      "status": "applied"
+    },
+    {
+      "company": "Headout",
+      "role": "Associate/Senior Associate, Customer Experience",
+      "date": "2026-08-11",
+      "source": "LinkedIn post / Greenhouse",
       "status": "applied"
     }
   ],
