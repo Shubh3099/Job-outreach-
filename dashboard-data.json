@@ -1,13 +1,13 @@
 {
   "updated": "2026-08-11",
   "summary": {
-    "applied": 157,
+    "applied": 159,
     "rejected": 38,
-    "awaiting": 108,
+    "awaiting": 103,
     "blocked": 18
   },
   "insights": {
-   "byCategory": [
+    "byCategory": [
       {
         "category": "BPO Team Leader / Operations (call center)",
         "count": 44
@@ -285,155 +285,79 @@
   ],
   "recentApplications": [
     {
-      "company": "SiteRecon",
-      "role": "Customer Success Manager",
-      "date": "2026-08-05"
+      "company": "Policybazaar.com",
+      "role": "Associate Team Lead",
+      "date": "2026-08-11"
     },
     {
-      "company": "Flowras",
-      "role": "Customer Success Manager",
-      "date": "2026-08-05"
+      "company": "Headout",
+      "role": "Associate/Senior Associate, Customer Experience",
+      "date": "2026-08-11"
     },
     {
-      "company": "Flexiple",
-      "role": "Customer Success Manager (VC-backed SaaS client)",
-      "date": "2026-08-04"
+      "company": "BPO ERP",
+      "role": "Team Leader / Assistant Manager - International Voice Process",
+      "date": "2026-08-11"
     },
     {
-      "company": "Blue Dart Express / DHL Group",
-      "role": "operations Executive (PLX)",
-      "date": "2026-08-03",
-      "gmailLink": "https://mail.google.com/mail/u/0/#all/19fc65513fe1e7f9"
+      "company": "TP Conseil",
+      "role": "Assistant Operations Manager (general BPO ops)",
+      "date": "2026-08-11"
     },
     {
-      "company": "Flexiple",
-      "role": "Service Operations Manager (US fintech client)",
-      "date": "2026-08-03"
+      "company": "TP (Teleperformance)",
+      "role": "Operations Team Lead (International Voice Process)",
+      "date": "2026-08-10"
     },
     {
-      "company": "easy home finance limited",
-      "role": "Branch Operations Manager",
-      "date": "2026-08-02",
-      "gmailLink": "https://mail.google.com/mail/u/0/#all/19fc3767169e04ee"
+      "company": "Echo Money",
+      "role": "Customer Relations Manager",
+      "date": "2026-08-10"
     },
     {
-      "company": "Barclays",
-      "role": "Fraud Operations - Team Manager",
-      "date": "2026-08-02"
+      "company": "Bill Gosling Outsourcing",
+      "role": "Team Lead, Operations",
+      "date": "2026-08-10"
+    },
+    {
+      "company": "DSPAYMENTS PRIVATE LIMITED",
+      "role": "Team Lead",
+      "date": "2026-08-10"
+    },
+    {
+      "company": "Amazon Robotics",
+      "role": "Team Manager, Alexa Shopping Operations",
+      "date": "2026-08-09"
+    },
+    {
+      "company": "TP (Teleperformance)",
+      "role": "Operations Manager - International Customer Support",
+      "date": "2026-08-09"
+    },
+    {
+      "company": "Connekt",
+      "role": "Customer Service Specialist (Customer Service Associate)",
+      "date": "2026-08-09"
     },
     {
       "company": "Amazon",
-      "role": "Operations Manager, Amazon Last Mile",
-      "date": "2026-08-02"
+      "role": "Operations Manager, AMZL (Last Mile) - Mumbai",
+      "date": "2026-08-08"
     },
     {
-      "company": "Wipro",
-      "role": "First Line Manager (FLM) L1",
-      "date": "2026-08-02"
+      "company": "TP (Teleperformance)",
+      "role": "Team Lead - International Voice Process",
+      "date": "2026-08-08"
     },
     {
-      "company": "Clearview Capital Advisors",
-      "role": "KYC & Operations Manager",
-      "date": "2026-08-02"
+      "company": "JPMorgan Chase",
+      "role": "KYC Client Data",
+      "date": "2026-08-07"
     },
     {
-      "company": "UPS (United Parcel Service)",
-      "role": "GBS Operations Supervisor",
-      "date": "2026-07-31",
-      "gmailLink": "https://mail.google.com/mail/u/0/#all/19fb79f78186a5ea"
-    },
-    {
-      "company": "Workdas",
-      "role": "Operations Team Lead",
-      "date": "2026-07-31",
-      "gmailLink": "https://mail.google.com/mail/u/0/#all/19fb717c0df11b75"
-    },
-    {
-      "company": "Hiresquad",
-      "role": "Operations Manager/Ops Manager/International BPO",
-      "date": "2026-07-30",
-      "gmailLink": "https://mail.google.com/mail/u/0/#all/19fb1d8bd837976e"
-    },
-    {
-      "company": "Floraison Strategic Consulting",
-      "role": "Finance & Accounts",
-      "date": "2026-07-29",
-      "gmailLink": "https://mail.google.com/mail/u/0/#all/19fb08bc174ec94a"
-    },
-    {
-      "company": "INFRAHUB",
-      "role": "Customer Service Manager",
-      "date": "2026-07-29",
-      "gmailLink": "https://mail.google.com/mail/u/0/#all/19fae2677f39bd59"
-    },
-    {
-      "company": "Hiresquad",
-      "role": "Team Leader / Assistant Manager / BPO",
-      "date": "2026-07-29",
-      "gmailLink": "https://mail.google.com/mail/u/0/#all/19fae24d57682f7c"
-    },
-    {
-      "company": "TP",
-      "role": "Assistant Operations Manager",
-      "date": "2026-07-29",
-      "gmailLink": "https://mail.google.com/mail/u/0/#all/19fae1daff6da49d"
-    },
-    {
-      "company": "iMerit Technology",
-      "role": "Team Lead - Senior Care Image Annotation (US Healthcare Project)",
-      "date": "2026-07-29",
-      "gmailLink": "https://mail.google.com/mail/u/0/#all/19fad47db751430b"
-    },
-    {
-      "company": "Teamware Solutions",
-      "role": "Fraud Investigator",
-      "date": "2026-07-29",
-      "gmailLink": "https://mail.google.com/mail/u/0/#all/19fa9964c0c47e73"
-    },
-    {
-      "company": "Scoutit",
-      "role": "Fraud Analyst",
-      "date": "2026-07-29",
-      "gmailLink": "https://mail.google.com/mail/u/0/#all/19fa9950c7c1c211"
-    },
-    {
-      "company": "TP",
-      "role": "Team Lead",
-      "date": "2026-07-29"
-    },
-    {
-      "company": "Live Connections",
-      "role": "Customer Service Team Lead",
-      "date": "2026-07-29",
-      "gmailLink": "https://mail.google.com/mail/u/0/#all/19fa9916b51ae21e"
-    },
-    {
-      "company": "HDFC Bank",
-      "role": "Customer Care Executive",
-      "date": "2026-07-29",
-      "gmailLink": "https://mail.google.com/mail/u/0/#all/19fae938665c953b"
-    },
-    {
-      "company": "Care Health Insurance",
-      "role": "Branch Operations Manager",
-      "date": "2026-07-29"
-    },
-    {
-      "company": "Hudson Manpower",
-      "role": "Customer Success Manager - US Clients",
-      "date": "2026-07-29",
-      "gmailLink": "https://mail.google.com/mail/u/0/#all/19fad4d7d123136b"
-    },
-    {
-      "company": "Kolkata Ventures",
-      "role": "Operations Manager",
-      "date": "2026-07-29",
-      "gmailLink": "https://mail.google.com/mail/u/0/#all/19fad39fa1112e4a"
-    },
-    {
-      "company": "TP Vision",
-      "role": "Assistant Operations Manager",
-      "date": "2026-07-29"
+      "company": "SiteRecon",
+      "role": "Customer Success Manager",
+      "date": "2026-08-05"
     }
   ],
   "applications": [
@@ -1693,6 +1617,24 @@
       "date": "2026-08-11",
       "source": "LinkedIn post / Greenhouse",
       "status": "applied"
+    },
+    {
+      "company": "BPO ERP",
+      "role": "Team Leader / Assistant Manager - International Voice Process",
+      "date": "2026-08-11",
+      "source": "Foundit",
+      "status": "awaiting",
+      "gmailLink": "",
+      "emailNote": "applied via Foundit external apply"
+    },
+    {
+      "company": "TP Conseil",
+      "role": "Assistant Operations Manager (general BPO ops)",
+      "date": "2026-08-11",
+      "source": "Foundit",
+      "status": "awaiting",
+      "gmailLink": "",
+      "emailNote": "applied via Foundit external apply"
     }
   ],
   "awaiting": [
@@ -1701,6 +1643,7 @@
       "role": "Customer Success Manager",
       "date": "2026-08-05",
       "source": "LinkedIn Easy Apply",
+      "status": "awaiting",
       "emailNote": "submitted in-session; LinkedIn confirmed Application submitted"
     },
     {
@@ -1708,6 +1651,7 @@
       "role": "Customer Success Manager",
       "date": "2026-08-05",
       "source": "LinkedIn -> company site",
+      "status": "awaiting",
       "emailNote": "submitted via flowras.com form; confirmation page Thank you - message received"
     },
     {
@@ -1715,6 +1659,7 @@
       "role": "Customer Success Manager (VC-backed SaaS client)",
       "date": "2026-08-04",
       "source": "Flexiple",
+      "status": "awaiting",
       "emailNote": "submitted in-session via Flexiple portal; status In review / Screening"
     },
     {
@@ -1722,6 +1667,7 @@
       "role": "operations Executive (PLX)",
       "date": "2026-08-03",
       "source": "DHL careers",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19fc65513fe1e7f9"
     },
     {
@@ -1729,6 +1675,7 @@
       "role": "Service Operations Manager (US fintech client)",
       "date": "2026-08-03",
       "source": "Flexiple",
+      "status": "awaiting",
       "emailNote": "submitted in-session; no confirmation email received"
     },
     {
@@ -1736,6 +1683,7 @@
       "role": "Branch Operations Manager",
       "date": "2026-08-02",
       "source": "foundit",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19fc3767169e04ee"
     },
     {
@@ -1743,6 +1691,7 @@
       "role": "Fraud Operations - Team Manager",
       "date": "2026-08-02",
       "source": "Workday",
+      "status": "awaiting",
       "emailNote": "submitted in-session; no confirmation email received"
     },
     {
@@ -1750,6 +1699,7 @@
       "role": "Operations Manager, Amazon Last Mile",
       "date": "2026-08-02",
       "source": "amazon.jobs",
+      "status": "awaiting",
       "emailNote": "submitted in-session; no confirmation email received"
     },
     {
@@ -1757,6 +1707,7 @@
       "role": "First Line Manager (FLM) L1",
       "date": "2026-08-02",
       "source": "SuccessFactors",
+      "status": "awaiting",
       "emailNote": "submitted in-session; no confirmation email received"
     },
     {
@@ -1764,6 +1715,7 @@
       "role": "KYC & Operations Manager",
       "date": "2026-08-02",
       "source": "Naukri",
+      "status": "awaiting",
       "emailNote": "submitted in-session; no confirmation email received"
     },
     {
@@ -1771,6 +1723,7 @@
       "role": "GBS Operations Supervisor",
       "date": "2026-07-31",
       "source": "Workday",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19fb79f78186a5ea"
     },
     {
@@ -1778,6 +1731,7 @@
       "role": "Operations Team Lead",
       "date": "2026-07-31",
       "source": "Indeed",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19fb717c0df11b75"
     },
     {
@@ -1785,6 +1739,7 @@
       "role": "Operations Manager/Ops Manager/International BPO",
       "date": "2026-07-30",
       "source": "foundit",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19fb1d8bd837976e"
     },
     {
@@ -1792,6 +1747,7 @@
       "role": "Finance & Accounts",
       "date": "2026-07-29",
       "source": "Naukri",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19fb08bc174ec94a"
     },
     {
@@ -1799,6 +1755,7 @@
       "role": "Customer Service Manager",
       "date": "2026-07-29",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19fae2677f39bd59"
     },
     {
@@ -1806,6 +1763,7 @@
       "role": "Team Leader / Assistant Manager / BPO",
       "date": "2026-07-29",
       "source": "foundit",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19fae24d57682f7c"
     },
     {
@@ -1813,6 +1771,7 @@
       "role": "Assistant Operations Manager",
       "date": "2026-07-29",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19fae1daff6da49d"
     },
     {
@@ -1820,6 +1779,7 @@
       "role": "Team Lead - Senior Care Image Annotation (US Healthcare Project)",
       "date": "2026-07-29",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19fad47db751430b"
     },
     {
@@ -1827,6 +1787,7 @@
       "role": "Fraud Investigator",
       "date": "2026-07-29",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19fa9964c0c47e73"
     },
     {
@@ -1834,6 +1795,7 @@
       "role": "Fraud Analyst",
       "date": "2026-07-29",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19fa9950c7c1c211"
     },
     {
@@ -1841,6 +1803,7 @@
       "role": "Team Lead",
       "date": "2026-07-29",
       "source": "LinkedIn",
+      "status": "awaiting",
       "emailNote": "submitted in-session; no confirmation email received"
     },
     {
@@ -1848,6 +1811,7 @@
       "role": "Customer Service Team Lead",
       "date": "2026-07-29",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19fa9916b51ae21e"
     },
     {
@@ -1855,6 +1819,7 @@
       "role": "Customer Care Executive",
       "date": "2026-07-29",
       "source": "RippleHire",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19fae938665c953b"
     },
     {
@@ -1862,6 +1827,7 @@
       "role": "Branch Operations Manager",
       "date": "2026-07-29",
       "source": "Naukri",
+      "status": "awaiting",
       "emailNote": "submitted in-session; no confirmation email received"
     },
     {
@@ -1869,6 +1835,7 @@
       "role": "Customer Success Manager - US Clients",
       "date": "2026-07-29",
       "source": "Indeed",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19fad4d7d123136b"
     },
     {
@@ -1876,6 +1843,7 @@
       "role": "Operations Manager",
       "date": "2026-07-29",
       "source": "Indeed",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19fad39fa1112e4a"
     },
     {
@@ -1883,6 +1851,7 @@
       "role": "Assistant Operations Manager",
       "date": "2026-07-29",
       "source": "LinkedIn",
+      "status": "awaiting",
       "emailNote": "submitted in-session; no confirmation email received"
     },
     {
@@ -1890,6 +1859,7 @@
       "role": "Customer Relationship Management Manager",
       "date": "2026-07-28",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19fa7abc8a2cca96"
     },
     {
@@ -1897,6 +1867,7 @@
       "role": "Process Trainer",
       "date": "2026-07-28",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19fa7a4c7b548dc5"
     },
     {
@@ -1904,6 +1875,7 @@
       "role": "Data Operations Team Lead",
       "date": "2026-07-27",
       "source": "Greenhouse",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19fa4deb0475f054"
     },
     {
@@ -1911,6 +1883,7 @@
       "role": "Service Supervisor",
       "date": "2026-07-25",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f9971beeea851f"
     },
     {
@@ -1918,6 +1891,7 @@
       "role": "Team Leader",
       "date": "2026-07-25",
       "source": "foundit",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f991fe4594246f"
     },
     {
@@ -1925,6 +1899,7 @@
       "role": "Team Lead / Assistant Manager",
       "date": "2026-07-24",
       "source": "Naukri",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f96c436997907c"
     },
     {
@@ -1932,6 +1907,7 @@
       "role": "Senior FinCrime Risk Manager (Regulatory Product)",
       "date": "2026-07-23",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f8eadfcda3993c"
     },
     {
@@ -1939,6 +1915,7 @@
       "role": "Business Risk Manager (Third Party Risk)",
       "date": "2026-07-23",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f8f9564c328354"
     },
     {
@@ -1946,6 +1923,7 @@
       "role": "Fraud Detection Analyst",
       "date": "2026-07-23",
       "source": "Naukri",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f91bf7d6b2990b"
     },
     {
@@ -1953,6 +1931,7 @@
       "role": "Transportation Representative, Executive Customer Relations",
       "date": "2026-07-22",
       "source": "amazon.jobs",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f88c3606c9a2a0"
     },
     {
@@ -1960,6 +1939,7 @@
       "role": "(role not stated in confirmation)",
       "date": "2026-07-22",
       "source": "x.ai",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f88a82e0b7393e"
     },
     {
@@ -1967,6 +1947,7 @@
       "role": "Peer Review & Vendor Operations Supervisor",
       "date": "2026-07-22",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f889d72f14b33f"
     },
     {
@@ -1974,6 +1955,7 @@
       "role": "Vendor Manager",
       "date": "2026-07-22",
       "source": "foundit",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f8a3490043d895"
     },
     {
@@ -1981,6 +1963,7 @@
       "role": "Fraud Monitoring - Digital and New Accounts Monitoring",
       "date": "2026-07-22",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f8a86ab85ac725"
     },
     {
@@ -1988,6 +1971,7 @@
       "role": "Supervisor, Client Contact",
       "date": "2026-07-21",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f85141d5b5a947"
     },
     {
@@ -1995,6 +1979,7 @@
       "role": "Vendor Manager",
       "date": "2026-07-21",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f8572abcbdb994"
     },
     {
@@ -2002,6 +1987,7 @@
       "role": "Assistant Operations Manager",
       "date": "2026-07-21",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19fae1daff6da49d"
     },
     {
@@ -2009,6 +1995,7 @@
       "role": "(role not stated in confirmation)",
       "date": "2026-07-20",
       "source": "Ashby",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f7f33c08dff9ba"
     },
     {
@@ -2016,6 +2003,7 @@
       "role": "Operations / Senior Operations Manager",
       "date": "2026-07-20",
       "source": "amazon.jobs",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f7e5a8c54e8826"
     },
     {
@@ -2023,6 +2011,7 @@
       "role": "Operations Manager",
       "date": "2026-07-20",
       "source": "foundit",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f7f08b7ff504fb"
     },
     {
@@ -2030,6 +2019,7 @@
       "role": "Operational Risk Management",
       "date": "2026-07-20",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f814c294bd8055"
     },
     {
@@ -2037,6 +2027,7 @@
       "role": "(role via LinkedIn Easy Apply)",
       "date": "2026-07-20",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f7f0d83cdeb96a"
     },
     {
@@ -2044,6 +2035,7 @@
       "role": "Operations Manager",
       "date": "2026-07-20",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f7f07965206791"
     },
     {
@@ -2051,6 +2043,7 @@
       "role": "Operations Manager",
       "date": "2026-07-20",
       "source": "Flexiple",
+      "status": "awaiting",
       "emailNote": "submitted in-session; no confirmation email received"
     },
     {
@@ -2058,6 +2051,7 @@
       "role": "Team Leader",
       "date": "2026-07-20",
       "source": "Monster (manually submitted)",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f2f9a5e3213eb0"
     },
     {
@@ -2065,6 +2059,7 @@
       "role": "Operations Manager",
       "date": "2026-07-19",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f79f78c4578e74"
     },
     {
@@ -2072,6 +2067,7 @@
       "role": "Team leader",
       "date": "2026-07-19",
       "source": "Keka",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f79935c6ee7eb6"
     },
     {
@@ -2079,6 +2075,7 @@
       "role": "Program Manager, Customer Experience",
       "date": "2026-07-19",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f7a0a43034baee"
     },
     {
@@ -2086,6 +2083,7 @@
       "role": "Team Manager",
       "date": "2026-07-19",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f79d8a3a8d9ed0"
     },
     {
@@ -2093,6 +2091,7 @@
       "role": "Team Lead",
       "date": "2026-07-19",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f7b130e3480681"
     },
     {
@@ -2100,6 +2099,7 @@
       "role": "Urgent Opportunity For Vertical Lead For Kolkata",
       "date": "2026-07-19",
       "source": "Indeed",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f79bff168a829b"
     },
     {
@@ -2107,6 +2107,7 @@
       "role": "Team leader",
       "date": "2026-07-19",
       "source": "Indeed",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f79935dc4fe9e0"
     },
     {
@@ -2114,6 +2115,7 @@
       "role": "Team Lead",
       "date": "2026-07-19",
       "source": "Indeed",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f79928bc49101a"
     },
     {
@@ -2121,6 +2123,7 @@
       "role": "Team Leader/Operations",
       "date": "2026-07-19",
       "source": "Indeed",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f79916bb0bd2eb"
     },
     {
@@ -2128,6 +2131,7 @@
       "role": "Team leader Chat Process",
       "date": "2026-07-19",
       "source": "Indeed",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f79908034dc676"
     },
     {
@@ -2135,6 +2139,7 @@
       "role": "Team Leader For Content Moderation Process",
       "date": "2026-07-19",
       "source": "Indeed",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f798e0d9d01d86"
     },
     {
@@ -2142,6 +2147,7 @@
       "role": "L2 level AML TM Investigator",
       "date": "2026-07-17",
       "source": "Naukri",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f736f045ae8098"
     },
     {
@@ -2149,6 +2155,7 @@
       "role": "L2 (Level 2) AML Transaction Monitoring Investigator",
       "date": "2026-07-14",
       "source": "Naukri",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f631385252babc"
     },
     {
@@ -2156,6 +2163,7 @@
       "role": "Transaction Monitoring Officer",
       "date": "2026-07-13",
       "source": "Naukri",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f5e08e486ee57d"
     },
     {
@@ -2163,6 +2171,7 @@
       "role": "Sr. Officer/Officer - Customer Experience",
       "date": "2026-07-12",
       "source": "Naukri",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f588de1f2fc0d1"
     },
     {
@@ -2170,6 +2179,7 @@
       "role": "Associate",
       "date": "2026-07-10",
       "source": "Naukri",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f4e6ae587720f8"
     },
     {
@@ -2177,6 +2187,7 @@
       "role": "L2 (Level 2) AML Transaction Monitoring Investigator",
       "date": "2026-07-09",
       "source": "Naukri",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f4905e62c19e8e"
     },
     {
@@ -2184,6 +2195,7 @@
       "role": "Team Lead",
       "date": "2026-07-07",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f3bf5f9eac3411"
     },
     {
@@ -2191,6 +2203,7 @@
       "role": "Transaction Monitoring Analyst",
       "date": "2026-07-06",
       "source": "Naukri",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f39f2c33b07ac5"
     },
     {
@@ -2198,6 +2211,7 @@
       "role": "Team Lead - Airhaul & Railhaul",
       "date": "2026-07-06",
       "source": "amazon.jobs",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f383ce31535b3b"
     },
     {
@@ -2205,6 +2219,7 @@
       "role": "Manager/Deputy Manager - Corporate Card Underwriting",
       "date": "2026-07-05",
       "source": "Naukri",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f34a384c0985e5"
     },
     {
@@ -2212,6 +2227,7 @@
       "role": "Team Leader",
       "date": "2026-07-04",
       "source": "Naukri",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f2f9a5e3213eb0"
     },
     {
@@ -2219,6 +2235,7 @@
       "role": "Manager Operations",
       "date": "2026-07-04",
       "source": "HSBC",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f2c1bd26df2009"
     },
     {
@@ -2226,6 +2243,7 @@
       "role": "Team Leader RPC",
       "date": "2026-07-04",
       "source": "Naukri (external)",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f2f9a5e3213eb0"
     },
     {
@@ -2233,6 +2251,7 @@
       "role": "Team Leader (AMCC) | International",
       "date": "2026-07-04",
       "source": "Naukri (external)",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f2f9a5e3213eb0"
     },
     {
@@ -2240,6 +2259,7 @@
       "role": "Transaction Monitoring Associate",
       "date": "2026-07-03",
       "source": "Naukri",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f2a21fca65942c"
     },
     {
@@ -2247,6 +2267,7 @@
       "role": "(role not stated in confirmation)",
       "date": "2026-07-01",
       "source": "Oracle/GS",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f1c883faca4db4"
     },
     {
@@ -2254,6 +2275,7 @@
       "role": "Team Lead - Customer care",
       "date": "2026-06-30",
       "source": "Capgemini",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f197c8eab17c9e"
     },
     {
@@ -2261,6 +2283,7 @@
       "role": "Customer Service Support Advisor (Req 60046)",
       "date": "2026-06-30",
       "source": "SuccessFactors",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f18d8094ddb258"
     },
     {
@@ -2268,6 +2291,7 @@
       "role": "Investigation Representative, ROW IB",
       "date": "2026-06-29",
       "source": "amazon.jobs",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f12abc469c728d"
     },
     {
@@ -2275,6 +2299,7 @@
       "role": "Onboarding Specialist",
       "date": "2026-06-28",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f0e547d4adda63"
     },
     {
@@ -2282,6 +2307,7 @@
       "role": "Team Leader (Sanction Screening / Transaction Monitoring) AML KYC",
       "date": "2026-06-25",
       "source": "Naukri",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19f015a458b0483d"
     },
     {
@@ -2289,6 +2315,7 @@
       "role": "SPS Associate",
       "date": "2026-06-23",
       "source": "amazon.jobs",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19ef36ab3653a2f4"
     },
     {
@@ -2296,6 +2323,7 @@
       "role": "Customer Success Manager",
       "date": "2026-06-20",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19ee5b4805661be0"
     },
     {
@@ -2303,6 +2331,7 @@
       "role": "Financial Systems Analyst-Associate-2",
       "date": "2026-06-10",
       "source": "Paradox",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19eb0d8ee2f0c687"
     },
     {
@@ -2310,6 +2339,7 @@
       "role": "Forex Card Operations Executive",
       "date": "2026-06-07",
       "source": "Naukri",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19ea4f67c3f49aeb"
     },
     {
@@ -2317,6 +2347,7 @@
       "role": "Operations Executive, SSD 3P",
       "date": "2026-06-05",
       "source": "amazon.jobs",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19e973688da9102e"
     },
     {
@@ -2324,6 +2355,7 @@
       "role": "Customer Support Specialist",
       "date": "2026-06-04",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19e9327b63e90521"
     },
     {
@@ -2331,6 +2363,7 @@
       "role": "Customer Support Specialist - India",
       "date": "2026-06-04",
       "source": "Teamtailor",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19e932bbc7a407c5"
     },
     {
@@ -2338,6 +2371,7 @@
       "role": "Non-Voice Customer Support Executive",
       "date": "2026-06-04",
       "source": "Capgemini",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19e92cbafef710ff"
     },
     {
@@ -2345,6 +2379,7 @@
       "role": "Fraud Investigation Associate",
       "date": "2026-06-01",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19e839f4471a444d"
     },
     {
@@ -2352,6 +2387,7 @@
       "role": "Investigation Specialist I",
       "date": "2026-05-30",
       "source": "amazon.jobs",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19e77cf82d1c9b3e"
     },
     {
@@ -2359,6 +2395,7 @@
       "role": "Payments and Ad",
       "date": "2026-05-29",
       "source": "Naukri",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19e769565c2f1372"
     },
     {
@@ -2366,6 +2403,7 @@
       "role": "L2 investigator",
       "date": "2026-05-28",
       "source": "Naukri",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19e7177ec067ef8f"
     },
     {
@@ -2373,6 +2411,7 @@
       "role": "Team Lead - Kolkata",
       "date": "2026-05-27",
       "source": "Keka",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19e6b79fb03fb91e"
     },
     {
@@ -2380,6 +2419,7 @@
       "role": "Team Leader Operations",
       "date": "2026-05-27",
       "source": "Naukri",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19e6b9ac5ed00085"
     },
     {
@@ -2387,6 +2427,7 @@
       "role": "Team Leader Operations",
       "date": "2026-05-22",
       "source": "Naukri",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19e6b9ac5ed00085"
     },
     {
@@ -2394,6 +2435,7 @@
       "role": "AI Trainer",
       "date": "2026-05-22",
       "source": "Ashby",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19e50d920a151920"
     },
     {
@@ -2401,6 +2443,7 @@
       "role": "Trainer - Process and Soft skills",
       "date": "2026-05-22",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19e50dae4a514722"
     },
     {
@@ -2408,6 +2451,7 @@
       "role": "Operations Team Lead",
       "date": "2026-05-14",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19e27e5e17770418"
     },
     {
@@ -2415,6 +2459,7 @@
       "role": "Game Tester",
       "date": "2026-05-11",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19e18273052c9264"
     },
     {
@@ -2422,6 +2467,7 @@
       "role": "(role not stated in confirmation)",
       "date": "2026-05-10",
       "source": "OpenAI",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19e10b332f12b9eb"
     },
     {
@@ -2429,6 +2475,7 @@
       "role": "Customer Support Executive",
       "date": "2026-05-09",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19e0e5c3b0b73dbd"
     },
     {
@@ -2436,6 +2483,7 @@
       "role": "Financial Crime Compliance, Analyst",
       "date": "2026-05-06",
       "source": "Workday",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19dfd9450f4af7e7"
     },
     {
@@ -2443,6 +2491,7 @@
       "role": "Fraud Investigator",
       "date": "2026-05-01",
       "source": "LinkedIn",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19de3e76d248245f"
     },
     {
@@ -2450,8 +2499,104 @@
       "role": "Operation Lead, AMAZON NOW",
       "date": "2026-04-30",
       "source": "amazon.jobs",
+      "status": "awaiting",
       "gmailLink": "https://mail.google.com/mail/u/0/#all/19e182a1b03c0729"
+    },
+    {
+      "company": "Amazon",
+      "role": "Operations Manager, AMZL (Last Mile) - Mumbai",
+      "date": "2026-08-08",
+      "source": "Amazon.jobs (via foundit)",
+      "status": "applied"
+    },
+    {
+      "company": "TP (Teleperformance)",
+      "role": "Team Lead - International Voice Process",
+      "date": "2026-08-08",
+      "source": "LinkedIn Easy Apply",
+      "status": "applied"
+    },
+    {
+      "company": "Amazon Robotics",
+      "role": "Team Manager, Alexa Shopping Operations",
+      "date": "2026-08-09",
+      "source": "LinkedIn -> Amazon.jobs",
+      "status": "applied"
+    },
+    {
+      "company": "TP (Teleperformance)",
+      "role": "Operations Manager - International Customer Support",
+      "date": "2026-08-09",
+      "source": "LinkedIn Easy Apply",
+      "status": "applied"
+    },
+    {
+      "company": "Connekt",
+      "role": "Customer Service Specialist (Customer Service Associate)",
+      "date": "2026-08-09",
+      "source": "LinkedIn Easy Apply",
+      "status": "applied"
+    },
+    {
+      "company": "TP (Teleperformance)",
+      "role": "Operations Team Lead (International Voice Process)",
+      "date": "2026-08-10",
+      "source": "LinkedIn Easy Apply",
+      "status": "applied"
+    },
+    {
+      "company": "Echo Money",
+      "role": "Customer Relations Manager",
+      "date": "2026-08-10",
+      "source": "LinkedIn Easy Apply",
+      "status": "applied"
+    },
+    {
+      "company": "Bill Gosling Outsourcing",
+      "role": "Team Lead, Operations",
+      "date": "2026-08-10",
+      "source": "LinkedIn -> Workday",
+      "status": "applied"
+    },
+    {
+      "company": "DSPAYMENTS PRIVATE LIMITED",
+      "role": "Team Lead",
+      "date": "2026-08-10",
+      "source": "LinkedIn Easy Apply",
+      "status": "applied"
+    },
+    {
+      "company": "Policybazaar.com",
+      "role": "Associate Team Lead",
+      "date": "2026-08-11",
+      "source": "LinkedIn Easy Apply",
+      "status": "applied"
+    },
+    {
+      "company": "Headout",
+      "role": "Associate/Senior Associate, Customer Experience",
+      "date": "2026-08-11",
+      "source": "LinkedIn post / Greenhouse",
+      "status": "applied"
+    },
+    {
+      "company": "BPO ERP",
+      "role": "Team Leader / Assistant Manager - International Voice Process",
+      "date": "2026-08-11",
+      "source": "Foundit",
+      "status": "awaiting",
+      "gmailLink": "",
+      "emailNote": "applied via Foundit external apply"
+    },
+    {
+      "company": "TP Conseil",
+      "role": "Assistant Operations Manager (general BPO ops)",
+      "date": "2026-08-11",
+      "source": "Foundit",
+      "status": "awaiting",
+      "gmailLink": "",
+      "emailNote": "applied via Foundit external apply"
     }
   ],
-  "note": ""
+  "note": "\n\n[2026-08-11] Ran full job search cycle across LinkedIn, Naukri, Foundit, Indeed for Ops Manager/Team Leader/Customer Service Team Manager roles in Kolkata. Most listings skipped for domain mismatch (BFSI/banking-collections specific), seniority mismatch, or already applied. Submitted 2 new applications via Foundit external apply: BPO ERP (Team Leader/Asst Manager - Intl Voice Process) and TP Conseil (Assistant Operations Manager, general BPO ops track, not the banking-collections-specific TP Conseil posting)."
 }
