@@ -1721,7 +1721,14 @@
    "date": "2026-08-20",
    "source": "linkedin",
    "status": "applied"
-  }
+  },
+    {
+        "company": "American Express",
+        "role": "Team Leader-Operations",
+        "date": "2026-08-21",
+        "source": "linkedin",
+        "status": "applied"
+    }
  ],
  "awaiting": [
   {
@@ -2702,14 +2709,7 @@
    "status": "awaiting",
    "source": "Indeed",
    "date": "2026-08-18"
-  },
-      {
-             "company": "American Express",
-             "role": "Team Leader-Operations",
-             "status": "applied",
-             "source": "LinkedIn (Oracle Cloud)",
-             "date": "2026-08-21"
-      }
+  
  ],
  "note": "\n\n[2026-08-11] Ran full job search cycle across LinkedIn, Naukri, Foundit, Indeed for Ops Manager/Team Leader/Customer Service Team Manager roles in Kolkata. Most listings skipped for domain mismatch (BFSI/banking-collections specific), seniority mismatch, or already applied. Submitted 2 new applications via Foundit external apply: BPO ERP (Team Leader/Asst Manager - Intl Voice Process) and TP Conseil (Assistant Operations Manager, general BPO ops track, not the banking-collections-specific TP Conseil posting)."
 }
