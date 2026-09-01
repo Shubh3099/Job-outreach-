@@ -1,9 +1,9 @@
 {
      "updated": "2026-09-01",
  "summary": {
-      "applied": 171,
-  "rejected": 43,
-      "awaiting": 110,
+          "applied": 172,
+    "rejected": 45,
+          "awaiting": 109,
   "blocked": 18
  },
  "insights": {
@@ -57,9 +57,21 @@
   {
       "company": "Telus International",
       "role": "Online Data Analyst (qualification exam)",
-      "date": "2026-08-11",
-      "gmailLink": "https://mail.google.com/mail/u/0/#all/19ff0131935645a9",
-      "emailNote": "did not pass qualification exam; retake offered"
+      
+             "gmailLink": "https://mail.google.com/mail/u/0/#all/19ff0131935645a9",
+             "emailNote": "did not pass qualification exam; retake offered"
+  },
+          {
+                     "company": "Concentrix",
+                     "role": "Team Leader, Operations",
+                     "date": "2026-08-28",
+                     "gmailLink": "https://mail.google.com/mail/u/0/#all/1a0473b1bf832a47"
+          },
+          {
+                     "company": "TP (Teleperformance)",
+                     "role": "Process Trainer",
+                     "date": "2026-08-26",
+                     "gmailLink": "https://mail.google.com/mail/u/0/#all/1a03d08c9737fc85"
   },
     {
         "company": "SiteRecon",
@@ -2754,5 +2766,5 @@
         }
   
  ],
- "note": "\n\n[2026-08-11] Ran full job search cycle across LinkedIn, Naukri, Foundit, Indeed for Ops Manager/Team Leader/Customer Service Team Manager roles in Kolkata. Most listings skipped for domain mismatch (BFSI/banking-collections specific), seniority mismatch, or already applied. Submitted 2 new applications via Foundit external apply: BPO ERP (Team Leader/Asst Manager - Intl Voice Process) and TP Conseil (Assistant Operations Manager, general BPO ops track, not the banking-collections-specific TP Conseil posting).\n\n[2026-08-28] Search cycle: LinkedIn Team Leader Operations results grew 15→25; reviewed all newly-appeared postings across LinkedIn/Naukri/Foundit/Indeed. No new genuine applications submitted this cycle — AmEx Team Leader posting was a duplicate (already applied), HRM Counsel and Uber postings had closed, MarketStar required new Workday account (skipped), remaining postings were out of scope (Ops Manager titles) or different domain. One strong match found: DoorDash Team Leader, Customer Experience (Hyderabad, on-site) via Greenhouse — application started (name/email/phone/city/resume filled) but left open for user to complete voluntary EEO and work-authorization questions directly.\n\n[2026-08-30] Search cycle: reviewed Foundit, Naukri, Indeed (LinkedIn tab unavailable this session). Applied to 3 genuine matches: Thermo Fisher Scientific (Team Leader, Customer Service, Bengaluru, Foundit), Kotak Mahindra Bank (Sky Service CCU - Team Leader, Sky Channel-Customer Service, Thane, Foundit), Teleperformance (Team Lead, Bengaluru, Naukri) — all via true-background resume, no new password accounts created. Skipped: Naukri duplicate TP Mumbai listing, ~19 other Naukri results (sales/retail/security/finance-collections/insurance, out of scope), all 17 Indeed results (Operations Manager-type titles, out of scope). DoorDash Team Leader Customer Experience (Hyderabad) application remains unsubmitted — still needs user to complete EEO/work-authorization questions.\n\n[2026-09-01] Search cycle: reviewed LinkedIn (new tab opened), Foundit, Naukri, Indeed. Applied to 1 genuine new match: Foundever (Operations Team Lead, Mumbai, LinkedIn Easy Apply, true-background resume). Skipped as duplicates already logged: Thermo Fisher Scientific, Kotak Mahindra Bank (Foundit), Teleperformance/TP (Naukri). Skipped — not genuine/out of scope: Namma Yatri (entry-level CX associate), PNB MetLife (mismatched sales listing), Bill Gosling Outsourcing (collections domain), remainder of Indeed results (IT/telecom, oil & gas, courier/fleet — out of scope). DoorDash Team Leader Customer Experience (Hyderabad) application still unsubmitted — requires user to complete EEO/work-authorization questions."
+ "note": "\n\n[2026-08-11] Ran full job search cycle across LinkedIn, Naukri, Foundit, Indeed for Ops Manager/Team Leader/Customer Service Team Manager roles in Kolkata. Most listings skipped for domain mismatch (BFSI/banking-collections specific), seniority mismatch, or already applied. Submitted 2 new applications via Foundit external apply: BPO ERP (Team Leader/Asst Manager - Intl Voice Process) and TP Conseil (Assistant Operations Manager, general BPO ops track, not the banking-collections-specific TP Conseil posting).\n\n[2026-08-28] Search cycle: LinkedIn Team Leader Operations results grew 15→25; reviewed all newly-appeared postings across LinkedIn/Naukri/Foundit/Indeed. No new genuine applications submitted this cycle — AmEx Team Leader posting was a duplicate (already applied), HRM Counsel and Uber postings had closed, MarketStar required new Workday account (skipped), remaining postings were out of scope (Ops Manager titles) or different domain. One strong match found: DoorDash Team Leader, Customer Experience (Hyderabad, on-site) via Greenhouse — application started (name/email/phone/city/resume filled) but left open for user to complete voluntary EEO and work-authorization questions directly.\n\n[2026-08-30] Search cycle: reviewed Foundit, Naukri, Indeed (LinkedIn tab unavailable this session). Applied to 3 genuine matches: Thermo Fisher Scientific (Team Leader, Customer Service, Bengaluru, Foundit), Kotak Mahindra Bank (Sky Service CCU - Team Leader, Sky Channel-Customer Service, Thane, Foundit), Teleperformance (Team Lead, Bengaluru, Naukri) — all via true-background resume, no new password accounts created. Skipped: Naukri duplicate TP Mumbai listing, ~19 other Naukri results (sales/retail/security/finance-collections/insurance, out of scope), all 17 Indeed results (Operations Manager-type titles, out of scope). DoorDash Team Leader Customer Experience (Hyderabad) application remains unsubmitted — still needs user to complete EEO/work-authorization questions.\n\n[2026-09-01] Search cycle: reviewed LinkedIn (new tab opened), Foundit, Naukri, Indeed. Applied to 1 genuine new match: Foundever (Operations Team Lead, Mumbai, LinkedIn Easy Apply, true-background resume). Skipped as duplicates already logged: Thermo Fisher Scientific, Kotak Mahindra Bank (Foundit), Teleperformance/TP (Naukri). Skipped — not genuine/out of scope: Namma Yatri (entry-level CX associate), PNB MetLife (mismatched sales listing), Bill Gosling Outsourcing (collections domain), remainder of Indeed results (IT/telecom, oil & gas, courier/fleet — out of scope). DoorDash Team Leader Customer Experience (Hyderabad) application still unsubmitted — requires user to complete EEO/work-authorization questions.\n\n[2026-09-01] Searched Gmail for rejection emails per user request. Found 2 new genuine rejections not previously logged: Concentrix (Team Leader, Operations, applied 2026-08-15, rejected 2026-08-28, confirmed via Workday recruiting update email) and TP/Teleperformance (Process Trainer, rejected 2026-08-26, confirmed via LinkedIn notification - tracking URL parameter showed application_rejected type despite sparse body text; this application was not previously logged as an 'applied' entry, so applied count was incremented by 1 to account for it). Updated summary: applied 171->172, rejected 43->45, awaiting 110->109. Added both to rejections array with gmailLinks."
 }
