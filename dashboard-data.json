@@ -1,9 +1,9 @@
 {
  "updated": "2026-09-13",
  "summary": {
-  "applied": 188,
+  "applied": 189,
   "rejected": 49,
-  "awaiting": 122,
+  "awaiting": 123,
   "blocked": 18
  },
  "insights": {
@@ -1823,6 +1823,13 @@
    "status": "rejected",
    "source": "LinkedIn",
    "date": "2026-09-13"
+  },
+  {
+   "company": "Binary Geckos",
+   "role": "Customer Support Manager",
+   "status": "awaiting",
+   "source": "LinkedIn (Apply on company website -> Google Form)",
+   "date": "2026-09-13"
   }
  ],
  "awaiting": [
@@ -2874,7 +2881,7 @@
    "status": "awaiting",
    "source": "Foundit",
    "date": "2026-09-04"
-  }, 
+  },
   {
    "company": "AM Infoweb",
    "role": "Team Lead",
