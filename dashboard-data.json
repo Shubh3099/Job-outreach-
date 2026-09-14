@@ -1,9 +1,9 @@
 {
- "updated": "2026-09-13",
+ "updated": "2026-09-14",
  "summary": {
-  "applied": 189,
+  "applied": 190,
   "rejected": 49,
-  "awaiting": 123,
+  "awaiting": 124,
   "blocked": 18
  },
  "insights": {
@@ -1830,6 +1830,13 @@
    "status": "awaiting",
    "source": "LinkedIn (Apply on company website -> Google Form)",
    "date": "2026-09-13"
+  },
+  {
+   "company": "Triple",
+   "role": "Senior Customer Service Representative",
+   "status": "awaiting",
+   "source": "LinkedIn (Easy Apply)",
+   "date": "2026-09-14"
   }
  ],
  "awaiting": [
