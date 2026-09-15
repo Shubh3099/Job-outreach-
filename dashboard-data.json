@@ -1,9 +1,9 @@
 {
- "updated": "2026-09-14",
+ "updated": "2026-09-15",
  "summary": {
-  "applied": 190,
+  "applied": 192,
   "rejected": 49,
-  "awaiting": 124,
+  "awaiting": 126,
   "blocked": 18
  },
  "insights": {
@@ -1837,6 +1837,20 @@
    "status": "awaiting",
    "source": "LinkedIn (Easy Apply)",
    "date": "2026-09-14"
+  },
+  {
+   "company": "Flexiple",
+   "role": "Customer Service Representative",
+   "status": "awaiting",
+   "source": "LinkedIn -> Flexiple Portal",
+   "date": "2026-09-15"
+  },
+  {
+   "company": "Hireme Sbs",
+   "role": "Customer Care Executive (Remote/WFH)",
+   "status": "awaiting",
+   "source": "Naukri",
+   "date": "2026-09-15"
   }
  ],
  "awaiting": [
