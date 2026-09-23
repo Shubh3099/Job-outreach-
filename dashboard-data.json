@@ -1,9 +1,9 @@
 {
   "updated": "2026-09-23",
  "summary": {
-    "applied": 199,
+    "applied": 201,
   "rejected": 49,
-    "awaiting": 133,
+    "awaiting": 135,
   "blocked": 18
  },
  "insights": {
@@ -341,6 +341,16 @@
  ],
  "recentApplications": [
       {
+            "company": "MyOperator",
+            "role": "Customer Success Team Lead",
+            "date": "2026-09-23"
+      },
+      {
+            "company": "Kohler India",
+            "role": "Customer Care Team Lead",
+            "date": "2026-09-23"
+      },
+      {
             "company": "GetixHealth India",
             "role": "Customer Service Lead",
             "date": "2026-09-23"
@@ -453,6 +463,22 @@
   }
  ],
  "applications": [
+       {
+                 "company": "MyOperator",
+                 "role": "Customer Success Team Lead",
+                 "date": "2026-09-23",
+                 "source": "LinkedIn Easy Apply",
+                 "status": "awaiting",
+                 "emailNote": "submitted in-session via LinkedIn Easy Apply; confirmed 'Your application was sent to MyOperator!'"
+       },
+       {
+                 "company": "Kohler India",
+                 "role": "Customer Care Team Lead - Pune",
+                 "date": "2026-09-23",
+                 "source": "Indeed -> Kohler careers site (Zwayam)",
+                 "status": "awaiting",
+                 "emailNote": "submitted in-session via Kohler careers portal (careers.kohler.co.in); confirmed Thank You confirmation page"
+       },
        {
                  "company": "GetixHealth India",
                  "role": "Customer Service Lead",
