@@ -1,9 +1,9 @@
 {
- "updated": "2026-09-22",
+  "updated": "2026-09-23",
  "summary": {
-  "applied": 196,
+    "applied": 198,
   "rejected": 49,
-  "awaiting": 130,
+    "awaiting": 132,
   "blocked": 18
  },
  "insights": {
@@ -340,6 +340,16 @@
   }
  ],
  "recentApplications": [
+     {
+          "company": "Meazure Learning",
+          "role": "Sr. Manager, Client Satisfaction Operations",
+          "date": "2026-09-23"
+     },
+     {
+          "company": "Hiresquad Resources",
+          "role": "Team Leader //Assistant Manager//International BPO",
+          "date": "2026-09-23"
+     },
   {
    "company": "DirectusHR Services",
    "role": "Customer Service Team Leader",
@@ -438,6 +448,22 @@
   }
  ],
  "applications": [
+     {
+          "company": "Meazure Learning",
+          "role": "Sr. Manager, Client Satisfaction Operations",
+          "date": "2026-09-23",
+          "source": "LinkedIn -> ADP Workforce Now",
+          "status": "awaiting",
+          "emailNote": "submitted in-session; ADP confirmed We have received your application"
+     },
+     {
+          "company": "Hiresquad Resources",
+          "role": "Team Leader //Assistant Manager//International BPO",
+          "date": "2026-09-23",
+          "source": "LinkedIn Easy Apply",
+          "status": "awaiting",
+          "emailNote": "submitted in-session; LinkedIn confirmed Applied"
+     },
   {
    "company": "JPMorgan Chase",
    "role": "KYC Client Data",
