@@ -1,10 +1,10 @@
 {
   "updated": "2026-09-23",
  "summary": {
-    "applied": 201,
+    "applied": 204,
   "rejected": 49,
-    "awaiting": 135,
-  "blocked": 18
+    "awaiting": 138,
+  "blocked": 19
  },
  "insights": {
   "byCategory": [
@@ -341,6 +341,21 @@
  ],
  "recentApplications": [
       {
+            "company": "Teleperformance",
+            "role": "Team Leader",
+            "date": "2026-09-24"
+      },
+      {
+            "company": "Kotak Mahindra Bank",
+            "role": "Sky Service CCU - Team Leader",
+            "date": "2026-09-24"
+      },
+      {
+            "company": "Full Potential Solutions",
+            "role": "Operations Manager | FinTech (Customer Service)",
+            "date": "2026-09-24"
+      },
+      {
             "company": "MyOperator",
             "role": "Customer Success Team Lead",
             "date": "2026-09-23"
@@ -463,6 +478,38 @@
   }
  ],
  "applications": [
+       {
+                 "company": "Teleperformance",
+                 "role": "Team Leader",
+                 "date": "2026-09-24",
+                 "source": "Naukri",
+                 "status": "awaiting",
+                 "emailNote": "submitted in-session via Naukri Apply (Gurugram); confirmed 'You have successfully applied to Team Leader'"
+       },
+       {
+                 "company": "Kotak Mahindra Bank",
+                 "role": "Sky Service CCU - Team Leader",
+                 "date": "2026-09-24",
+                 "source": "Foundit",
+                 "status": "awaiting",
+                 "emailNote": "submitted in-session via Foundit Apply Now (Thane); status changed to Applied"
+       },
+       {
+                 "company": "Full Potential Solutions",
+                 "role": "Operations Manager | FinTech (Customer Service)",
+                 "date": "2026-09-24",
+                 "source": "Indeed -> careers.fpsinc.com",
+                 "status": "awaiting",
+                 "emailNote": "submitted in-session via FPS careers portal application form (Pune, onsite); confirmed 'Thanks for applying' page"
+       },
+       {
+                 "company": "Teleperformance",
+                 "role": "Team Leader- Operations|Domestic (Kolkata, Remote)",
+                 "date": "2026-09-24",
+                 "source": "Indeed -> Workday",
+                 "status": "blocked",
+                 "emailNote": "blocked: Workday application required creating an account with a password, which is not permitted; abandoned application"
+       },
        {
                  "company": "MyOperator",
                  "role": "Customer Success Team Lead",
