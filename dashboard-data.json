@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-26",
+  "updated": "2026-09-29",
    "summary": {
-    "applied": 205,
+    "applied": 208,
          "rejected": 49,
-    "awaiting": 139,
+    "awaiting": 142,
          "blocked": 20
 },
  "insights": {
@@ -340,6 +340,9 @@
   }
  ],
  "recentApplications": [
+   {"company":"IKEA","role":"Sales Team Leader - Customer Service Centre","date":"2026-09-29"},
+   {"company":"Norlox Solutions","role":"Team Leader - BPO Operations","date":"2026-09-29"},
+   {"company":"Painflame Clinic","role":"Team Lead - Call Centre","date":"2026-09-29"},
      {
          "company": "LiveSalesman",
          "role": "Team Lead",
@@ -483,6 +486,9 @@
   }
  ],
  "applications": [
+   {"company":"IKEA","role":"Sales Team Leader - Customer Service Centre","date":"2026-09-29","source":"Foundit Quick Apply","status":"applied","emailNote":"Foundit confirmation email received"},
+   {"company":"Norlox Solutions","role":"Team Leader - BPO Operations","date":"2026-09-29","source":"LinkedIn Easy Apply","status":"awaiting","emailNote":"submitted in-session; LinkedIn confirmed Applied"},
+   {"company":"Painflame Clinic","role":"Team Lead - Call Centre","date":"2026-09-29","source":"LinkedIn Easy Apply","status":"awaiting","emailNote":"submitted in-session; LinkedIn confirmed Applied"},
      {
          "company": "LiveSalesman",
          "role": "Team Lead",
