@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-29",
+  "updated": "2026-10-03",
    "summary": {
-    "applied": 208,
+    "applied": 210,
          "rejected": 49,
-    "awaiting": 142,
+    "awaiting": 144,
          "blocked": 20
 },
  "insights": {
@@ -340,6 +340,8 @@
   }
  ],
  "recentApplications": [
+   {"company":"ipath Infotech","role":"Team Lead - Customer Support Executive (UK Clients)","date":"2026-10-03"},
+   {"company":"Foundever","role":"Team Leader Customer Service GGN","date":"2026-10-03"},
    {"company":"IKEA","role":"Sales Team Leader - Customer Service Centre","date":"2026-09-29"},
    {"company":"Norlox Solutions","role":"Team Leader - BPO Operations","date":"2026-09-29"},
    {"company":"Painflame Clinic","role":"Team Lead - Call Centre","date":"2026-09-29"},
@@ -486,6 +488,8 @@
   }
  ],
  "applications": [
+   {"company":"ipath Infotech","role":"Team Lead - Customer Support Executive (UK Clients)","date":"2026-10-03","source":"Indeed Easy Apply","status":"applied","emailNote":"Indeed confirmation email received"},
+   {"company":"Foundever","role":"Team Leader Customer Service GGN","date":"2026-10-03","source":"Foundit Apply","status":"awaiting","emailNote":"Foundit showed Applied; redirected to company site, no confirmation email yet"},
    {"company":"IKEA","role":"Sales Team Leader - Customer Service Centre","date":"2026-09-29","source":"Foundit Quick Apply","status":"applied","emailNote":"Foundit confirmation email received"},
    {"company":"Norlox Solutions","role":"Team Leader - BPO Operations","date":"2026-09-29","source":"LinkedIn Easy Apply","status":"awaiting","emailNote":"submitted in-session; LinkedIn confirmed Applied"},
    {"company":"Painflame Clinic","role":"Team Lead - Call Centre","date":"2026-09-29","source":"LinkedIn Easy Apply","status":"awaiting","emailNote":"submitted in-session; LinkedIn confirmed Applied"},
