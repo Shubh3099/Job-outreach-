@@ -1,9 +1,9 @@
 {
   "updated": "2026-11-15",
    "summary": {
-    "applied": 236,
+    "applied": 238,
          "rejected": 54,
-    "awaiting": 165,
+    "awaiting": 167,
          "blocked": 20
 },
  "insights": {
@@ -345,6 +345,8 @@
   }
  ],
  "recentApplications": [
+    {"company":"Wipro","role":"Process Associate - Customer Service (Voice), Kolkata (Req 209682)","date":"2026-11-15"},
+    {"company":"Faiyaz Asghar (LinkedIn post, cold email)","role":"Team Leader - US Process (Voice/Blended), Kolkata","date":"2026-11-15"},
 {"company":"Jobgether (via LinkedIn)","role":"Team Leader - Remote Desktop Support (India, Remote)","date":"2026-11-15"},
 {"company":"Gear Inc. (via Indeed)","role":"Team Lead for Non Voice Process - Content Moderation, Kolkata","date":"2026-11-15"},
 {"company":"Anthropic","role":"Product Support Specialist","date":"2026-11-14"},
@@ -514,6 +516,8 @@
   }
  ],
  "applications": [
+    {"company":"Wipro","role":"Process Associate - Customer Service (Voice), Kolkata (Req 209682)","date":"2026-11-15","source":"Wipro careers (via LinkedIn)","status":"applied","emailNote":"Wipro portal confirmed: application sent with cover letter"},
+    {"company":"Faiyaz Asghar (LinkedIn post, cold email)","role":"Team Leader - US Process (Voice/Blended), Kolkata","date":"2026-11-15","source":"LinkedIn post - email","status":"applied","emailNote":"Resume emailed to recruiter per the post; no reply yet"},
 {"company":"Jobgether (via LinkedIn)","role":"Team Leader - Remote Desktop Support (India, Remote)","date":"2026-11-15","source":"LinkedIn Easy Apply","status":"applied","emailNote":"LinkedIn shows Applied; awaiting response"},
 {"company":"Gear Inc. (via Indeed)","role":"Team Lead for Non Voice Process - Content Moderation, Kolkata","date":"2026-11-15","source":"Indeed Apply","status":"applied","emailNote":"Indeed confirmation email expected"},
 {"company":"Anthropic","role":"Product Support Specialist","date":"2026-11-14","source":"Greenhouse","status":"applied","emailNote":"Greenhouse confirmation email received"},
