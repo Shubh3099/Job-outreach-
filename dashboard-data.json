@@ -1,9 +1,9 @@
 {
   "updated": "2026-11-15",
    "summary": {
-    "applied": 238,
+    "applied": 241,
          "rejected": 54,
-    "awaiting": 167,
+    "awaiting": 170,
          "blocked": 20
 },
  "insights": {
@@ -345,6 +345,9 @@
   }
  ],
  "recentApplications": [
+{"company":"Entrata","role":"Team Lead, India Contact Center, Pune","date":"2026-11-15"},
+{"company":"TeamViewer","role":"Team Manager, Customer Support – APAC, Mumbai","date":"2026-11-15"},
+{"company":"TLI Software (via Indeed)","role":"Product & Service Operations Manager (Remote)","date":"2026-11-15"},
     {"company":"Wipro","role":"Process Associate - Customer Service (Voice), Kolkata (Req 209682)","date":"2026-11-15"},
     {"company":"Faiyaz Asghar (LinkedIn post, cold email)","role":"Team Leader - US Process (Voice/Blended), Kolkata","date":"2026-11-15"},
 {"company":"Jobgether (via LinkedIn)","role":"Team Leader - Remote Desktop Support (India, Remote)","date":"2026-11-15"},
@@ -516,6 +519,9 @@
   }
  ],
  "applications": [
+{"company":"Entrata","role":"Team Lead, India Contact Center, Pune","date":"2026-11-15","source":"Lever (via Indeed)","status":"applied","emailNote":"Lever page confirmed: Application submitted"},
+{"company":"TeamViewer","role":"Team Manager, Customer Support – APAC, Mumbai","date":"2026-11-15","source":"TeamViewer careers (via Indeed)","status":"applied","emailNote":"TeamViewer careers page confirmed: Thanks for applying"},
+{"company":"TLI Software (via Indeed)","role":"Product & Service Operations Manager (Remote)","date":"2026-11-15","source":"Indeed Apply","status":"applied","emailNote":"Indeed confirmed submission; confirmation email sent"},
     {"company":"Wipro","role":"Process Associate - Customer Service (Voice), Kolkata (Req 209682)","date":"2026-11-15","source":"Wipro careers (via LinkedIn)","status":"applied","emailNote":"Wipro portal confirmed: application sent with cover letter"},
     {"company":"Faiyaz Asghar (LinkedIn post, cold email)","role":"Team Leader - US Process (Voice/Blended), Kolkata","date":"2026-11-15","source":"LinkedIn post - email","status":"applied","emailNote":"Resume emailed to recruiter per the post; no reply yet"},
 {"company":"Jobgether (via LinkedIn)","role":"Team Leader - Remote Desktop Support (India, Remote)","date":"2026-11-15","source":"LinkedIn Easy Apply","status":"applied","emailNote":"LinkedIn shows Applied; awaiting response"},
