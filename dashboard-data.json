@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
    "summary": {
-    "applied": 243,
+    "applied": 244,
          "rejected": 54,
-    "awaiting": 172,
+    "awaiting": 173,
          "blocked": 20
 },
  "insights": {
@@ -345,6 +345,7 @@
   }
  ],
  "recentApplications": [
+    {"company":"Workforce Management Consultancy (via Foundit)","role":"International Customer Support (Team Lead / Voice), Kolkata","date":"2026-11-17"},
     {"company":"Contour Education","role":"Customer Support Specialist (AU Shift) - Support Team Lead, Remote India","date":"2026-11-16"},
 {"company":"JBR Consulting (via Indeed)","role":"Manager - Client Operations & Audit, Kolkata","date":"2026-11-15"},
 {"company":"Entrata","role":"Team Lead, India Contact Center, Pune","date":"2026-11-15"},
@@ -521,6 +522,7 @@
   }
  ],
  "applications": [
+    {"company":"Workforce Management Consultancy (via Foundit)","role":"International Customer Support (Team Lead / Voice), Kolkata","date":"2026-11-17","source":"Foundit Quick Apply","status":"applied","emailNote":"Foundit shows status: Applied"},
     {"company":"Contour Education","role":"Customer Support Specialist (AU Shift) - Support Team Lead, Remote India","date":"2026-11-16","source":"LinkedIn Easy Apply","status":"applied","emailNote":"LinkedIn confirmed: application sent"},
 {"company":"JBR Consulting (via Indeed)","role":"Manager - Client Operations & Audit, Kolkata","date":"2026-11-15","source":"Indeed Apply","status":"applied","emailNote":"Applied via Indeed (confirmed by Subh)"},
 {"company":"Entrata","role":"Team Lead, India Contact Center, Pune","date":"2026-11-15","source":"Lever (via Indeed)","status":"applied","emailNote":"Lever page confirmed: Application submitted"},
