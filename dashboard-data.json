@@ -1,9 +1,9 @@
 {
   "updated": "2026-11-19",
    "summary": {
-    "applied": 247,
+    "applied": 248,
          "rejected": 54,
-    "awaiting": 176,
+    "awaiting": 177,
          "blocked": 20
 },
  "insights": {
@@ -345,6 +345,7 @@
   }
  ],
  "recentApplications": [
+    {"company":"Workforce Management Consultancy (via Foundit)","role":"Customer Services Executive (International Voice & Chat), Kolkata","date":"2026-11-19"},
     {"company":"Urban Company","role":"Category Operations Manager, Kolkata","date":"2026-11-19"},
     {"company":"Identixweb","role":"Support Team Lead (Remote), via Indeed / company careers site","date":"2026-11-19"},
     {"company":"Tata Consultancy Services (via MyGlit)","role":"Team Lead - Voice_A_Kolkata (Req 434135)","date":"2026-11-17"},
@@ -525,6 +526,7 @@
   }
  ],
  "applications": [
+    {"company":"Workforce Management Consultancy (via Foundit)","role":"Customer Services Executive (International Voice & Chat), Kolkata","date":"2026-11-19","source":"Foundit Quick Apply","status":"applied","emailNote":"Foundit confirmed: Applied Successfully"},
     {"company":"Urban Company","role":"Category Operations Manager, Kolkata","date":"2026-11-19","source":"LinkedIn Easy Apply","status":"applied","emailNote":"LinkedIn confirmed: Application submitted"},
     {"company":"Identixweb","role":"Support Team Lead (Remote), via Indeed / company careers site","date":"2026-11-19","source":"Company careers site (Keka)","status":"applied","emailNote":"Careers site confirmed: Success"},
     {"company":"Tata Consultancy Services (via MyGlit)","role":"Team Lead - Voice_A_Kolkata (Req 434135)","date":"2026-11-17","source":"MyGlit","status":"applied","emailNote":"Submitted by user via MyGlit after screening questions"},
