@@ -1,9 +1,9 @@
 {
   "updated": "2026-11-21",
    "summary": {
-    "applied": 250,
+    "applied": 251,
          "rejected": 54,
-    "awaiting": 179,
+    "awaiting": 180,
          "blocked": 20
 },
  "insights": {
@@ -345,6 +345,7 @@
   }
  ],
  "recentApplications": [
+    {"company":"Concentrix","role":"Operations Manager I - Kolkata (R1748983)","date":"2026-11-21"},
     {"company":"Concentrix","role":"Team Leader, Operations - Kolkata (R1775939)","date":"2026-11-21"},
     {"company":"BCD Travel","role":"Manager, Contact Center Consulting (Remote, India)","date":"2026-11-20"},
     {"company":"Workforce Management Consultancy (via Foundit)","role":"Customer Services Executive (International Voice & Chat), Kolkata","date":"2026-11-19"},
@@ -528,6 +529,7 @@
   }
  ],
  "applications": [
+    {"company":"Concentrix","role":"Operations Manager I - Kolkata (R1748983)","date":"2026-11-21","source":"Company careers site (Workday)","status":"applied","emailNote":"Workday confirmed: Application Submitted"},
     {"company":"Concentrix","role":"Team Leader, Operations - Kolkata (R1775939)","date":"2026-11-21","source":"Company careers site (Workday)","status":"applied","emailNote":"Workday confirmed: Application Submitted"},
     {"company":"BCD Travel","role":"Manager, Contact Center Consulting (Remote, India)","date":"2026-11-20","source":"Company careers site (SuccessFactors)","status":"applied","emailNote":"Submitted by user via careers site"},
     {"company":"Workforce Management Consultancy (via Foundit)","role":"Customer Services Executive (International Voice & Chat), Kolkata","date":"2026-11-19","source":"Foundit Quick Apply","status":"applied","emailNote":"Foundit confirmed: Applied Successfully"},
