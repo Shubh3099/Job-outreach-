@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-28",
    "summary": {
-    "applied": 255,
+    "applied": 256,
          "rejected": 55,
-    "awaiting": 183,
+    "awaiting": 184,
          "blocked": 20
 },
  "insights": {
@@ -346,6 +346,7 @@
   }
  ],
  "recentApplications": [
+    {"company":"Digitide Solutions (formerly Conneqt)","role":"Team Leader - Kolkata (Job 260486)","date":"2026-11-28","source":"Indeed → Oracle Careers","status":"applied","emailNote":"Submitted by user on Digitide Oracle career site"},
     {"company":"Amazon","role":"Manager I, Operations - Centralised Monitoring Response System Auditing, Hyderabad (10575597)","date":"2026-11-24"},
     {"company":"Wells Fargo","role":"Customer Service Associate Manager - Hyderabad (R-587275)","date":"2026-11-23"},
     {"company":"Allstate India","role":"Customer Service Team Lead I (Blended) - Pune (R35432)","date":"2026-11-22"},
@@ -534,6 +535,7 @@
   }
  ],
  "applications": [
+    {"company":"Digitide Solutions (formerly Conneqt)","role":"Team Leader - Kolkata (Job 260486)","date":"2026-11-28","source":"Indeed → Oracle Careers","status":"applied","emailNote":"Submitted by user on Digitide Oracle career site"},
     {"company":"Amazon","role":"Manager I, Operations - Centralised Monitoring Response System Auditing, Hyderabad (10575597)","date":"2026-11-24","source":"Amazon.jobs","status":"applied","emailNote":"Amazon.jobs confirmed submitted; online assessment required"},
     {"company":"Wells Fargo","role":"Customer Service Associate Manager - Hyderabad (R-587275)","date":"2026-11-23","source":"Company careers site (Workday)","status":"applied","emailNote":"Workday confirmed: Application Submitted"},
     {"company":"Allstate India","role":"Customer Service Team Lead I (Blended) - Pune (R35432)","date":"2026-11-22","source":"Company careers site (Workday)","status":"applied","emailNote":"Workday confirmed: Application Submitted"},
