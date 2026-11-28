@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-28",
-   "summary": {
-    "applied": 256,
-         "rejected": 55,
-    "awaiting": 184,
-         "blocked": 20
-},
+ "updated": "2026-11-28",
+ "summary": {
+  "applied": 257,
+  "rejected": 57,
+  "awaiting": 183,
+  "blocked": 20
+ },
  "insights": {
   "byCategory": [
    {
@@ -54,12 +54,54 @@
   "note": "Breakdown of all 63 submitted applications by role type and by company, compiled from the full campaign log. Session update (2026-08-03, fresh search cycle): per user request, ran a full search-and-apply cycle across LinkedIn, Naukri, Foundit and Indeed for Operations Manager / Team Leader / Customer Service Manager roles. No genuinely new matches were found - LinkedIn (Operations Manager, Team Leader Operations, Team Leader BPO, India, past 24h) returned near-identical result sets across all three queries dominated by mismatched domains (hospitality, civil engineering, IT infra) or entry-level postings. Naukri (Operations Manager broad search, and Team Leader Operations in Kolkata, 5+ yrs) surfaced overwhelmingly 0-5yr entry-level, retail/insurance-sales, or unrelated-domain roles. Foundit (Team Leader Operations, Kolkata) resurfaced Titanium Consulting's US Healthcare Team Leader/Operations Manager and TP Health's Process Trainer, both already investigated and skipped in prior sessions as domain mismatches. Indeed (Operations Manager BPO, India, last 24h) surfaced 6 results: BT's People & Culture Professional (HR Business Partner role, mismatch), Aanvii Hearing Solutions' Team Lead-HCA (hearing-aid sales, low salary, mismatch), EXL's Lead Assistant Manager HCA (healthcare-specific), MetLife's Senior Manager-Operations (actually a Finance Technology/Workday ERP role, mismatch), Sara Infotech's manager-Healthcare BPO (US healthcare patient-communication domain, mismatch, same pattern as prior Titanium Consulting skip), and two Qode (fintech PPI wallet) roles - Lead-Customer Operations & Support (L2) and Manager-Business Operations Support (L2 & Cross-Functional) - both requiring specific RBI Ombudsman/Nodal Officer/PPI wallet regulatory grievance-handling experience that Resume_4 does not demonstrate, so both were skipped as genuine domain mismatches rather than applied to speculatively. No new applications submitted this session; counts unchanged (applied 83, rejected 32, awaiting 51, blocked 18). Rejection check (2026-08-03, continued): searched Gmail for rejection-pattern language after 2026-07-28. Found one genuine new rejection - ShipBob's 'Manager, Control Tower' role, rejected 2026-08-03 ('we have decided to move forward with other candidates'). This application (submitted 2026-07-22, confirmed via ShipBob's 'Thank you for applying' email) had never been logged in recentApplications or counted in the applied total, so it was backfilled as both applied and rejected in the same update. Fresh Prints' Order Processing Associate rejection was also re-surfaced by the search but was already logged (2026-08-01). No other genuine rejections found among 11 matches - the rest were application-confirmation/status emails (DHL, Amazon assessment, Wipro, UPS, HDFC Bank) or unrelated newsletters, not rejections. Applied count updated 83->84 (ShipBob backfill), rejected updated 32->33, awaiting unchanged at 51. Full Gmail reconciliation (2026-08-03): per user request, rebuilt the applied and awaiting lists from scratch by auditing Gmail across all of 2026 and cross-checking against each platform's own application-history page. Gmail searches covered ATS/company confirmation language ('thank you for applying', 'application received', 'we have received your application', 'application submitted') plus platform-specific confirmations from LinkedIn (jobs-noreply), Indeed (indeedapply), Naukri (info@naukri.com 'You applied for N jobs'), and foundit/Monster ('Application Successful'). Because Naukri's multi-job confirmation emails only render the first role in the message body, and LinkedIn's confirmations name only the company and not the role, the role/company/date detail was completed from LinkedIn's My Jobs > Applied tracker (44 entries, 37 of them in 2026) and Naukri's Application History page (43 total applies: 35 on-Naukri + 8 external web jobs). RESULT: 142 verified applications in 2026, versus the 84 previously recorded - the dashboard had been tracking only the applications made during these Claude sessions plus a handful of backfills, and was missing roughly 58 earlier applications the user had submitted independently (notably a large block of AML/transaction-monitoring roles applied via Naukri in May-July, the Amazon.jobs internal applications, and a set of direct-ATS applications to HSBC, Capgemini, Goldman Sachs, OpenAI, Scale AI, FedEx, Pearson, Wise, Holafly, AML RightSource and others). Each application is now stored in a new 'applications' array carrying company, role, date, source platform and a status of either 'rejected' or 'awaiting'; the applications with no rejection email are additionally mirrored into a new 'awaiting' array so the dashboard can render applied and awaiting separately. Nine further applications are recorded that were evidenced only by their rejection email with no surviving confirmation (five Revolut FinCrime roles, three JPMorgan Chase roles, and Microsoft's Logistics Technician) - their dates are the rejection date less a short interval and should be treated as approximate. Seven Indeed applications from 2026-07-19 are logged with the role title only, because Indeed's confirmation emails do not name the employer. Counts updated: applied 84->142, rejected held at 33 (the Gmail rejection audit found no additional rejections), awaiting 51->109, blocked unchanged at 18. Scope was limited to 2026 per user instruction; pre-2026 applications visible in LinkedIn's tracker (Beam, Bookspert, Allcargo Logistics, WhiteSlips, SVF Entertainment, Triple, Concentrix) were deliberately excluded as out of campaign scope. Email mapping (2026-08-03): every entry in the applications and awaiting arrays now carries a gmailLink pointing at its own confirmation email, matching how the rejections tab already worked - 124 of 142 link straight to the 'thank you for applying' / 'application sent' message from the employer, ATS or job board. Nine further entries (five Revolut FinCrime roles, three JPMorgan Chase roles, Microsoft Logistics Technician) link to their rejection email instead and are tagged with an emailNote, because no confirmation email survives for them. The remaining nine (Flexiple x2, Barclays, Amazon Last Mile, Wipro, Clearview Capital Advisors, TP Team Lead, Care Health Insurance, TP Vision) were submitted through in-session portal flows that never sent a confirmation email and are tagged accordingly. Note that Naukri batches several same-day applications into one confirmation email, so a few Naukri entries share a gmailLink. One additional genuine rejection was discovered during this mapping pass and added: HSBC Group's Wealth Operations Executive (Job ID 43808), rejected 2026-06-03 - its template opens with 'Thank you for applying' before the regret language, which is why earlier keyword sweeps had classified it as a confirmation. Counts updated: rejected 33->34, awaiting 109->108, applied unchanged at 142. Session update (2026-08-04): ran a fresh search-and-apply cycle across LinkedIn, Naukri, Foundit and Indeed. No genuine matches found; no applications submitted; counts unchanged at applied 142, rejected 34, awaiting 108, blocked 18. LinkedIn: searched Operations Manager (India, 48h), Team Leader Operations (Kolkata, 7d), Customer Support Manager (remote, 7d) and Operations Manager (remote, 7d). Results were dominated by unrelated functions - Databricks engineering, marketing operations, Amazon Ads, crypto/institutional finance, strategy and product roles. Two were read in full: Jobgether's Service Desk Team Lead (India, remote, 6-month contract, up to INR 75,000/month) is an IT service desk role requiring ITIL v4 Foundation certification as a hard prerequisite plus Windows Server, Active Directory, Group Policy, ServiceNow/ITSM and AWS/Azure knowledge - skipped, as Resume_4 is customer-support/BPO operations rather than IT infrastructure. Standard Chartered's Client Service Manager (Kolkata) was noted but is a distribution-network banking role. Naukri: Team Leader Operations in Kolkata with a 5+ yrs and last-3-days filter returned 20 postings, all mismatches - Axis Max Life and Bajaj/Bharti AXA insurance sales, Little Shop retail sales, Glenmark and Abbott pharma field sales, a Xerox Java Developer role, an Amity Registrar post and a Medhavi visiting-faculty post; the only operations-titled result (Airhs Ticketing & Operations Executive) was 0-5 yrs at INR 1.8-2.4 LPA. A broader all-India 'operations manager BPO' search returned 777 results but Naukri's experience filter did not hold and the listings were freshers, telecalling and insurance sales. Indeed: a Kolkata search for team leader / operations manager / customer service manager returned only 6 postings, all far below band (Tele Caller INR 14-16K/month, ELD Customer Support INR 15-18K/month, Back Office Assistant INR 12-18K/month, a hospitality Banquet Assistant Manager and a Team Leader-Sales at INR 20-30K/month). An all-India equivalent surfaced ResultsCX's Manager, Operations - Motor Insurance BPO (Bengaluru), which was read in full and skipped: it requires 10-14 years overall experience with hands-on UK General Insurance / Motor insurance exposure, 4-6 years insurance-operations leadership and FCA / Consumer Duty regulatory knowledge, none of which Resume_4 demonstrates. Also re-surfaced and skipped were Aanvii Hearing Solutions' Team Lead-HCA and CHRO Consulting's Operations Manager - US Healthcare Process (Voice), the latter matching the US-healthcare-domain pattern already skipped for Titanium Consulting and Sara Infotech. Foundit: Operations Manager in Kolkata, 5-10 yrs, last 3 days returned just 2 postings - an insurance corporate-sales BDM and a B2B/SEO Marketing Manager - both mismatches. Observation for future cycles: the Kolkata market at this level is thin and the same postings keep recirculating, so widening to remote-first roles or adjacent titles (Service Delivery Manager, Customer Success Manager, Support Operations Lead) may produce better yield than repeating the same keyword set. Session update (2026-08-04, adjacent-title cycle): per the previous session's recommendation, widened the search away from 'Team Leader' / 'Operations Manager' keywords to adjacent titles that describe the same work. Searched LinkedIn for Service Delivery Manager, Customer Success Manager and Support Operations roles, remote-first, India, past 7 days. Service Delivery Manager skewed almost entirely to IT project management and SAP delivery (Hired, Jobgether, Jobs Ai, Ethos, Syntax, Ledelsea) - no matches. Customer Success Manager produced the result the wider net was meant to find: APPLIED to Flexiple's Customer Success Manager (remote India, explicitly including Kolkata, for a VC-backed SaaS company building its founding India customer success team). The role asks for 3-7 years in customer success, account management 'or a related role', account ownership from onboarding through renewal, churn-risk monitoring and stakeholder reviews - the same 3-7 yr band as the Flexiple Service Operations Manager already in Screening, and a genuine fit for Resume_4's support-and-team-management background. B2B SaaS and Gainsight/HubSpot familiarity are listed as preferred, not required. The LinkedIn Apply link routed to Flexiple's portal, which registered the application as In Progress rather than auto-submitting as it did in July; completing it required a second step through Applications > Continue Application, where a 'Complete your submission' form appeared pre-filled from the existing Flexiple profile (resume on file, current CTC 772000, expected CTC 800000, notice period 'I can join immediately' - all previously supplied by the user, none newly entered by Claude). Submission confirmed: 'Application completed successfully', status In review / Screening, Flexiple application id 68078925. Also skipped after reading the full JD: Jobgether's Service Desk Team Lead (ITIL v4 Foundation certification listed as a hard requirement, plus Windows Server, Active Directory, Group Policy, ServiceNow and AWS/Azure - IT infrastructure, not support operations) and ResultsCX's Manager, Operations - Motor Insurance BPO (10-14 yrs with UK General Insurance and FCA exposure). BACKFILL: while verifying the submission, Flexiple's Closed tab revealed a third pre-existing application never recorded here - Plum, Mobile App Engineer, applied 12 Jul 2026, marked 'Shortlisted by Flexiple' but now closed. Flagging that this role is well outside Resume_4's profile and was not submitted by Claude; it appears to date from the same 12 Jul session as the previously-backfilled Flexiple Operations Manager application. It is counted as applied and, since Flexiple lists it as Closed with no further action possible, as rejected - though no rejection email exists, so this is a platform-side closure rather than an employer decision. Counts updated: applied 142->144, rejected 34->35, awaiting 108->109, blocked unchanged at 18. Consistency fix (2026-08-04): the Plum / Mobile App Engineer closure had been added to the applications array as rejected but not to the rejections array, so the Rejections tile read 35 while the Rejections list header read 34. It is now present in both; the entry carries a note rather than a gmailLink because it is a Flexiple platform closure with no rejection email. | 2026-08-05 cycle: searched LinkedIn, Indeed, Naukri and Foundit across core and adjacent titles. Applied to SiteRecon Customer Success Manager (LinkedIn Easy Apply) and Flowras Customer Success Manager (company site form). Naukri and Foundit returned no genuine matches this cycle. | Gmail rejection sweep 2026-08-05: logged Scale AI - Operations Program Manager (rejected 2026-08-04, role filled) and removed duplicate Fresh Prints entries. | Gmail sweep 2026-08-08: no genuine new job matches found on LinkedIn/Naukri/Foundit/Indeed this cycle. Logged JPMorgan Chase - KYC Client Data (rejected 2026-08-07, new entry) and moved Pearson - Advanced Specialist Customer Service Enablement from awaiting to rejected (2026-08-06). | Session update (2026-08-08, narrowed scope): per user instruction, narrowed all future search to operations/team-lead/general customer-service-leadership roles only, excluding fraud/AML/compliance and deep SaaS-platform-admin roles. Searched LinkedIn/Naukri/Foundit/Indeed; most results were out-of-scope (Arabic/Spanish travel ops, defense aerostat ops, sales team leads, wrong seniority). Applied to two genuine matches with corrected/truthful resume: Amazon Operations Manager AMZL Last Mile - Mumbai (via foundit -> Amazon.jobs, required online assessment still pending user completion) and TP (Teleperformance) Team Lead - International Voice Process, Hyderabad (relocation required, user confirmed apply). Session update (2026-08-09): continued narrowed-scope search (ops/team-lead/CS-leadership only). Applied to two genuine matches: Amazon Robotics Team Manager, Alexa Shopping Operations (Bengaluru, via LinkedIn -> Amazon.jobs, Job ID 10495521) and TP (Teleperformance) Operations Manager - International Customer Support (Hyderabad, relocation required, via LinkedIn Easy Apply). Uber COE Team Lead II (New Delhi) listing on Naukri was broken/expired at click-through and was skipped; Flexiple Business Operations Manager (remote GCC role) skipped as a likely duplicate given 3 prior Flexiple applications already logged. Session update (2026-08-09, remote/part-time widen): per user request (feeling desperate, wants remote part-time-friendly income), searched remote/part-time customer service and ops roles. Skipped several red-flag listings: Indeed Sub Broker posting bundled with per-registration/per-hire commission schemes (MLM/referral-scheme pattern); Naukri WFH data-entry/back-office listings paying per-entry piecework; Crossing Hurdles AI Customer Support Specialist ($30-34/hr) required proven technical SaaS support experience Subhadip does not genuinely have, skipped to avoid misrepresenting skills; Rex.zone Remote Operations Generalist and Mercor Support Operations Expert ($80-120/hr) were both strong skills matches but required creating new third-party accounts (email/password or Google/Okta signup), outside what can be done on the users behalf - flagged for user to sign up and apply directly. Applied to one genuine, honest match: Connekt Customer Service Specialist (Customer Service Associate), India remote, full-time, general non-technical customer support role, equal-opportunity employer, via LinkedIn Easy Apply. | 2026-08-10: Logged TP Operations Team Lead (Bangalore, International Voice Process) and Echo Money Customer Relations Manager (remote) applications via LinkedIn Easy Apply. | 2026-08-10 fix: corrected summary.applied count (was miscalculated as 7 via status filter; now reflects total applications array length, 153). | Session update (2026-08-12): per user instruction, narrowed all future job searches to Team Leader / Customer Service Representative / Team Manager titles only (Operations Manager excluded). Fresh search cycle across LinkedIn, Naukri, Foundit, Indeed found no genuine new matches (outbound sales, FMCG supervisor, webinar/marketing ops domain mismatches, or vague/spammy postings). Gmail sweep found 2 new rejections: Headout (Associate/Senior Associate, Customer Experience) and Amazon (Operations Executive, SSD 3P, position no longer available) - both moved to rejected. | Session update (2026-08-13): submitted Wobbi Logix (Customer Service Manager / Team Leader - Transport & Logistics, remote) via LinkedIn Easy Apply, resume Subhadip_Haldar_Resume_4.pdf. | Session update (2026-08-15): submitted Concentrix Team Leader, Operations (Bengaluru, on-site) via Workday application routed from LinkedIn, resume Subhadip_Haldar_Resume_.pdf. | Session update (2026-08-18): submitted Paytm CST (Flights) Team Lead Operations (Noida) via LinkedIn Easy Apply, and DirectusHR Services Customer Service Team Leader (Thane) via Indeed, both with resume Subhadip_Haldar_Resume_4.pdf.\n\n[2026-08-18] Fixed corrupted commit (duplicate trailing JSON from prior paste) and swept Gmail for rejections: Amazon Team Lead - Airhaul & Railhaul moved to rejected (position no longer available, 2026-08-17). Verified Amazon SSD 3P Ops Exec, Headout CX Associate, JPMorgan KYC Client Data, Pearson CS Enablement, and Scale AI Ops Program Manager were already correctly logged as rejected. [2026-08-19] Applied to TP (Teleperformance) Team Lead - Operations (Jaipur & Lucknow, international process) via LinkedIn Easy Apply. Completed and submitted IKEA Resolutions Team Leader-Customer Service Centre application (account registration + screening questions) via ikea.avature.net. Gmail rejection sweep: UPS GBS Operations Supervisor moved to rejected (application not successful, 2026-08-18). [2026-08-20] Applied to Zapit Logistics Team Lead (remote, part-time, last-mile delivery ops) via LinkedIn Easy Apply. Skipped BCD Travel Team Leader (requires travel/GDS domain expertise not held), Wells Fargo Lead Operations Processor (ambiguous compliance/financial-crimes framing, avoided per prior false-claim remediation), and various TP/Policybazaar duplicate or poor-fit postings.\n\n[2026-09-13] Fixed a JSON syntax error in this file (embedded free-text note contained raw unescaped newlines/quotes, invalidating the JSON since ~2026-08-11) - reparsed and repaired. Discovered several previously-reported applications never actually persisted due to this corruption (People Group/Shaadi.com, MyTravaly, AM Infoweb, Right Move, Advait Techserve, SuperPe Marketplace) - re-added all to the applications array. Widened search cycle (remote roles, adjacent cities/seniority/titles) per user request: 0 new applications this cycle. Skipped: Jobgether 'Team Leader - Verifications' (fraud/KYC-adjacent, off-scope), LaunchAtScale 'Team Leader - Operations' (AI-education program ops, off-scope). Binary Geckos - Customer Support Manager (remote, night shift) found in-scope but requires an emailed application - flagged for user's decision, not sent without permission. Gmail scan found 4 new rejections: Cision (Data Operations Team Lead), Amazon Robotics (Team Manager, Alexa Shopping Operations), Right Move (Team Lead), Foundever (Operations Team Lead) - all marked rejected."
  },
  "rejections": [
-    {"company":"Anthropic","role":"Product Support Specialist","emailNote":"Rejection email received 2026-11-17","date":"2026-11-17"},
-{"company":"StayVista","role":"Senior Executive - Operations","emailNote":"Rejection email received 2026-10-27","date":"2026-10-27"},
-{"company":"Elite Butlers (via Indeed)","role":"Executive Assistant & Administration Executive","emailNote":"Rejection email received 2026-10-26","date":"2026-10-26"},
-{"company":"IKEA","role":"Resolutions Team Leader-Customer Service Centre (ID 346154)","emailNote":"Rejection email received 2026-11-02","date":"2026-11-02"},
-{"company":"Amazon","role":"Team Manager, Flex Investigations and Offboarding (ID 10570244)","emailNote":"Rejection email received 2026-11-06","date":"2026-11-06"},
-{"company":"Amazon","role":"Process Assistant, INFC Learning and Development (ID 10416765)","emailNote":"Position no longer available 2026-11-05","date":"2026-11-05"},
+  {
+   "company": "Concentrix",
+   "role": "Operations Manager I - Kolkata (R1748983)",
+   "emailNote": "Rejection email received 2026-11-26",
+   "date": "2026-11-26"
+  },
+  {
+   "company": "Contour Education",
+   "role": "Customer Support Specialist (AU Shift) - Remote India",
+   "emailNote": "Rejection email received 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "company": "Anthropic",
+   "role": "Product Support Specialist",
+   "emailNote": "Rejection email received 2026-11-17",
+   "date": "2026-11-17"
+  },
+  {
+   "company": "StayVista",
+   "role": "Senior Executive - Operations",
+   "emailNote": "Rejection email received 2026-10-27",
+   "date": "2026-10-27"
+  },
+  {
+   "company": "Elite Butlers (via Indeed)",
+   "role": "Executive Assistant & Administration Executive",
+   "emailNote": "Rejection email received 2026-10-26",
+   "date": "2026-10-26"
+  },
+  {
+   "company": "IKEA",
+   "role": "Resolutions Team Leader-Customer Service Centre (ID 346154)",
+   "emailNote": "Rejection email received 2026-11-02",
+   "date": "2026-11-02"
+  },
+  {
+   "company": "Amazon",
+   "role": "Team Manager, Flex Investigations and Offboarding (ID 10570244)",
+   "emailNote": "Rejection email received 2026-11-06",
+   "date": "2026-11-06"
+  },
+  {
+   "company": "Amazon",
+   "role": "Process Assistant, INFC Learning and Development (ID 10416765)",
+   "emailNote": "Position no longer available 2026-11-05",
+   "date": "2026-11-05"
+  },
   {
    "company": "Telus International",
    "role": "Online Data Analyst (qualification exam)",
@@ -346,97 +388,289 @@
   }
  ],
  "recentApplications": [
-    {"company":"Digitide Solutions (formerly Conneqt)","role":"Team Leader - Kolkata (Job 260486)","date":"2026-11-28","source":"Indeed → Oracle Careers","status":"applied","emailNote":"Submitted by user on Digitide Oracle career site"},
-    {"company":"Amazon","role":"Manager I, Operations - Centralised Monitoring Response System Auditing, Hyderabad (10575597)","date":"2026-11-24"},
-    {"company":"Wells Fargo","role":"Customer Service Associate Manager - Hyderabad (R-587275)","date":"2026-11-23"},
-    {"company":"Allstate India","role":"Customer Service Team Lead I (Blended) - Pune (R35432)","date":"2026-11-22"},
-    {"company":"TCS (via MyGlit)","role":"Trainer - Voice_A_Kolkata (434137)","date":"2026-11-22"},
-    {"company":"Concentrix","role":"Operations Manager I - Kolkata (R1748983)","date":"2026-11-21"},
-    {"company":"Concentrix","role":"Team Leader, Operations - Kolkata (R1775939)","date":"2026-11-21"},
-    {"company":"BCD Travel","role":"Manager, Contact Center Consulting (Remote, India)","date":"2026-11-20"},
-    {"company":"Workforce Management Consultancy (via Foundit)","role":"Customer Services Executive (International Voice & Chat), Kolkata","date":"2026-11-19"},
-    {"company":"Urban Company","role":"Category Operations Manager, Kolkata","date":"2026-11-19"},
-    {"company":"Identixweb","role":"Support Team Lead (Remote), via Indeed / company careers site","date":"2026-11-19"},
-    {"company":"Tata Consultancy Services (via MyGlit)","role":"Team Lead - Voice_A_Kolkata (Req 434135)","date":"2026-11-17"},
-    {"company":"Workforce Management Consultancy (via Foundit)","role":"International Customer Support (Team Lead / Voice), Kolkata","date":"2026-11-17"},
-    {"company":"Contour Education","role":"Customer Support Specialist (AU Shift) - Support Team Lead, Remote India","date":"2026-11-16"},
-{"company":"JBR Consulting (via Indeed)","role":"Manager - Client Operations & Audit, Kolkata","date":"2026-11-15"},
-{"company":"Entrata","role":"Team Lead, India Contact Center, Pune","date":"2026-11-15"},
-{"company":"TeamViewer","role":"Team Manager, Customer Support – APAC, Mumbai","date":"2026-11-15"},
-{"company":"TLI Software (via Indeed)","role":"Product & Service Operations Manager (Remote)","date":"2026-11-15"},
-    {"company":"Wipro","role":"Process Associate - Customer Service (Voice), Kolkata (Req 209682)","date":"2026-11-15"},
-    {"company":"Faiyaz Asghar (LinkedIn post, cold email)","role":"Team Leader - US Process (Voice/Blended), Kolkata","date":"2026-11-15"},
-{"company":"Jobgether (via LinkedIn)","role":"Team Leader - Remote Desktop Support (India, Remote)","date":"2026-11-15"},
-{"company":"Gear Inc. (via Indeed)","role":"Team Lead for Non Voice Process - Content Moderation, Kolkata","date":"2026-11-15"},
-{"company":"Anthropic","role":"Product Support Specialist","date":"2026-11-14"},
-{"company":"Amazon","role":"Operations Manager, Operations (ID 10479764)","date":"2026-11-14"},
-{"company":"Amazon","role":"Seasonal MyHR Live Support Sr. Advisor (ID 10555843)","date":"2026-11-13"},
-{"company":"Emeritus","role":"Role per LinkedIn confirmation","date":"2026-11-13"},
-{"company":"Blinkit (via Indeed)","role":"Store in house job","date":"2026-11-13"},
-{"company":"Employer via Indeed","role":"Operations Manager","date":"2026-11-13"},
-{"company":"Employer via Indeed","role":"Team Leader - International Voice Process, Kolkata","date":"2026-11-13"},
-{"company":"Employer via Indeed","role":"Team Leader/Supervisor - BPO","date":"2026-11-12"},
-{"company":"TELUS Digital","role":"Role per confirmation email","date":"2026-11-10"},
-{"company":"Twilio","role":"Onboarding Operations Specialist 1","date":"2026-11-10"},
-{"company":"Employer via Indeed","role":"Team Leader","date":"2026-11-09"},
-{"company":"Employer via Indeed","role":"Team Leader - Operations","date":"2026-11-09"},
-{"company":"Employer via Indeed","role":"Team Leader - Operations","date":"2026-10-31"},
-{"company":"Employer via Indeed","role":"Team Manager","date":"2026-10-25"},
-{"company":"Fresh Prints","role":"Technical Success Specialist (Remote)","date":"2026-10-25"},
-{"company":"Employer via Indeed","role":"Site Supervisor and Site Manager","date":"2026-10-24"},
-{"company":"Employer via Indeed","role":"Team Leader - Operations (BPO Outbound Sales)","date":"2026-10-24"},
-{"company":"iCubes","role":"Customer Support Manager (Live chat and email)","date":"2026-10-24"},
-{"company":"LetsTransport","role":"Associate Customer Service Manager","date":"2026-10-24"},
-   {"company":"ipath Infotech","role":"Team Lead - Customer Support Executive (UK Clients)","date":"2026-10-03"},
-   {"company":"Foundever","role":"Team Leader Customer Service GGN","date":"2026-10-03"},
-   {"company":"IKEA","role":"Sales Team Leader - Customer Service Centre","date":"2026-09-29"},
-   {"company":"Norlox Solutions","role":"Team Leader - BPO Operations","date":"2026-09-29"},
-   {"company":"Painflame Clinic","role":"Team Lead - Call Centre","date":"2026-09-29"},
-     {
-         "company": "LiveSalesman",
-         "role": "Team Lead",
-         "date": "2026-09-26"
-     },
-      {
-            "company": "Teleperformance",
-            "role": "Team Leader",
-            "date": "2026-09-24"
-      },
-      {
-            "company": "Kotak Mahindra Bank",
-            "role": "Sky Service CCU - Team Leader",
-            "date": "2026-09-24"
-      },
-      {
-            "company": "Full Potential Solutions",
-            "role": "Operations Manager | FinTech (Customer Service)",
-            "date": "2026-09-24"
-      },
-      {
-            "company": "MyOperator",
-            "role": "Customer Success Team Lead",
-            "date": "2026-09-23"
-      },
-      {
-            "company": "Kohler India",
-            "role": "Customer Care Team Lead",
-            "date": "2026-09-23"
-      },
-      {
-            "company": "GetixHealth India",
-            "role": "Customer Service Lead",
-            "date": "2026-09-23"
-      },
-     {
-          "company": "Meazure Learning",
-          "role": "Sr. Manager, Client Satisfaction Operations",
-          "date": "2026-09-23"
-     },
-     {
-          "company": "Hiresquad Resources",
-          "role": "Team Leader //Assistant Manager//International BPO",
-          "date": "2026-09-23"
-     },
+  {
+   "company": "QuantumLoopAI",
+   "role": "Junior Admin Operations Associate - India Remote",
+   "date": "2026-11-27"
+  },
+  {
+   "company": "Digitide Solutions (formerly Conneqt)",
+   "role": "Team Leader - Kolkata (Job 260486)",
+   "date": "2026-11-28",
+   "source": "Indeed → Oracle Careers",
+   "status": "applied",
+   "emailNote": "Submitted by user on Digitide Oracle career site"
+  },
+  {
+   "company": "Amazon",
+   "role": "Manager I, Operations - Centralised Monitoring Response System Auditing, Hyderabad (10575597)",
+   "date": "2026-11-24"
+  },
+  {
+   "company": "Wells Fargo",
+   "role": "Customer Service Associate Manager - Hyderabad (R-587275)",
+   "date": "2026-11-23"
+  },
+  {
+   "company": "Allstate India",
+   "role": "Customer Service Team Lead I (Blended) - Pune (R35432)",
+   "date": "2026-11-22"
+  },
+  {
+   "company": "TCS (via MyGlit)",
+   "role": "Trainer - Voice_A_Kolkata (434137)",
+   "date": "2026-11-22"
+  },
+  {
+   "company": "Concentrix",
+   "role": "Operations Manager I - Kolkata (R1748983)",
+   "date": "2026-11-21"
+  },
+  {
+   "company": "Concentrix",
+   "role": "Team Leader, Operations - Kolkata (R1775939)",
+   "date": "2026-11-21"
+  },
+  {
+   "company": "BCD Travel",
+   "role": "Manager, Contact Center Consulting (Remote, India)",
+   "date": "2026-11-20"
+  },
+  {
+   "company": "Workforce Management Consultancy (via Foundit)",
+   "role": "Customer Services Executive (International Voice & Chat), Kolkata",
+   "date": "2026-11-19"
+  },
+  {
+   "company": "Urban Company",
+   "role": "Category Operations Manager, Kolkata",
+   "date": "2026-11-19"
+  },
+  {
+   "company": "Identixweb",
+   "role": "Support Team Lead (Remote), via Indeed / company careers site",
+   "date": "2026-11-19"
+  },
+  {
+   "company": "Tata Consultancy Services (via MyGlit)",
+   "role": "Team Lead - Voice_A_Kolkata (Req 434135)",
+   "date": "2026-11-17"
+  },
+  {
+   "company": "Workforce Management Consultancy (via Foundit)",
+   "role": "International Customer Support (Team Lead / Voice), Kolkata",
+   "date": "2026-11-17"
+  },
+  {
+   "company": "Contour Education",
+   "role": "Customer Support Specialist (AU Shift) - Support Team Lead, Remote India",
+   "date": "2026-11-16"
+  },
+  {
+   "company": "JBR Consulting (via Indeed)",
+   "role": "Manager - Client Operations & Audit, Kolkata",
+   "date": "2026-11-15"
+  },
+  {
+   "company": "Entrata",
+   "role": "Team Lead, India Contact Center, Pune",
+   "date": "2026-11-15"
+  },
+  {
+   "company": "TeamViewer",
+   "role": "Team Manager, Customer Support – APAC, Mumbai",
+   "date": "2026-11-15"
+  },
+  {
+   "company": "TLI Software (via Indeed)",
+   "role": "Product & Service Operations Manager (Remote)",
+   "date": "2026-11-15"
+  },
+  {
+   "company": "Wipro",
+   "role": "Process Associate - Customer Service (Voice), Kolkata (Req 209682)",
+   "date": "2026-11-15"
+  },
+  {
+   "company": "Faiyaz Asghar (LinkedIn post, cold email)",
+   "role": "Team Leader - US Process (Voice/Blended), Kolkata",
+   "date": "2026-11-15"
+  },
+  {
+   "company": "Jobgether (via LinkedIn)",
+   "role": "Team Leader - Remote Desktop Support (India, Remote)",
+   "date": "2026-11-15"
+  },
+  {
+   "company": "Gear Inc. (via Indeed)",
+   "role": "Team Lead for Non Voice Process - Content Moderation, Kolkata",
+   "date": "2026-11-15"
+  },
+  {
+   "company": "Anthropic",
+   "role": "Product Support Specialist",
+   "date": "2026-11-14"
+  },
+  {
+   "company": "Amazon",
+   "role": "Operations Manager, Operations (ID 10479764)",
+   "date": "2026-11-14"
+  },
+  {
+   "company": "Amazon",
+   "role": "Seasonal MyHR Live Support Sr. Advisor (ID 10555843)",
+   "date": "2026-11-13"
+  },
+  {
+   "company": "Emeritus",
+   "role": "Role per LinkedIn confirmation",
+   "date": "2026-11-13"
+  },
+  {
+   "company": "Blinkit (via Indeed)",
+   "role": "Store in house job",
+   "date": "2026-11-13"
+  },
+  {
+   "company": "Employer via Indeed",
+   "role": "Operations Manager",
+   "date": "2026-11-13"
+  },
+  {
+   "company": "Employer via Indeed",
+   "role": "Team Leader - International Voice Process, Kolkata",
+   "date": "2026-11-13"
+  },
+  {
+   "company": "Employer via Indeed",
+   "role": "Team Leader/Supervisor - BPO",
+   "date": "2026-11-12"
+  },
+  {
+   "company": "TELUS Digital",
+   "role": "Role per confirmation email",
+   "date": "2026-11-10"
+  },
+  {
+   "company": "Twilio",
+   "role": "Onboarding Operations Specialist 1",
+   "date": "2026-11-10"
+  },
+  {
+   "company": "Employer via Indeed",
+   "role": "Team Leader",
+   "date": "2026-11-09"
+  },
+  {
+   "company": "Employer via Indeed",
+   "role": "Team Leader - Operations",
+   "date": "2026-11-09"
+  },
+  {
+   "company": "Employer via Indeed",
+   "role": "Team Leader - Operations",
+   "date": "2026-10-31"
+  },
+  {
+   "company": "Employer via Indeed",
+   "role": "Team Manager",
+   "date": "2026-10-25"
+  },
+  {
+   "company": "Fresh Prints",
+   "role": "Technical Success Specialist (Remote)",
+   "date": "2026-10-25"
+  },
+  {
+   "company": "Employer via Indeed",
+   "role": "Site Supervisor and Site Manager",
+   "date": "2026-10-24"
+  },
+  {
+   "company": "Employer via Indeed",
+   "role": "Team Leader - Operations (BPO Outbound Sales)",
+   "date": "2026-10-24"
+  },
+  {
+   "company": "iCubes",
+   "role": "Customer Support Manager (Live chat and email)",
+   "date": "2026-10-24"
+  },
+  {
+   "company": "LetsTransport",
+   "role": "Associate Customer Service Manager",
+   "date": "2026-10-24"
+  },
+  {
+   "company": "ipath Infotech",
+   "role": "Team Lead - Customer Support Executive (UK Clients)",
+   "date": "2026-10-03"
+  },
+  {
+   "company": "Foundever",
+   "role": "Team Leader Customer Service GGN",
+   "date": "2026-10-03"
+  },
+  {
+   "company": "IKEA",
+   "role": "Sales Team Leader - Customer Service Centre",
+   "date": "2026-09-29"
+  },
+  {
+   "company": "Norlox Solutions",
+   "role": "Team Leader - BPO Operations",
+   "date": "2026-09-29"
+  },
+  {
+   "company": "Painflame Clinic",
+   "role": "Team Lead - Call Centre",
+   "date": "2026-09-29"
+  },
+  {
+   "company": "LiveSalesman",
+   "role": "Team Lead",
+   "date": "2026-09-26"
+  },
+  {
+   "company": "Teleperformance",
+   "role": "Team Leader",
+   "date": "2026-09-24"
+  },
+  {
+   "company": "Kotak Mahindra Bank",
+   "role": "Sky Service CCU - Team Leader",
+   "date": "2026-09-24"
+  },
+  {
+   "company": "Full Potential Solutions",
+   "role": "Operations Manager | FinTech (Customer Service)",
+   "date": "2026-09-24"
+  },
+  {
+   "company": "MyOperator",
+   "role": "Customer Success Team Lead",
+   "date": "2026-09-23"
+  },
+  {
+   "company": "Kohler India",
+   "role": "Customer Care Team Lead",
+   "date": "2026-09-23"
+  },
+  {
+   "company": "GetixHealth India",
+   "role": "Customer Service Lead",
+   "date": "2026-09-23"
+  },
+  {
+   "company": "Meazure Learning",
+   "role": "Sr. Manager, Client Satisfaction Operations",
+   "date": "2026-09-23"
+  },
+  {
+   "company": "Hiresquad Resources",
+   "role": "Team Leader //Assistant Manager//International BPO",
+   "date": "2026-09-23"
+  },
   {
    "company": "DirectusHR Services",
    "role": "Customer Service Team Leader",
@@ -535,145 +769,510 @@
   }
  ],
  "applications": [
-    {"company":"Digitide Solutions (formerly Conneqt)","role":"Team Leader - Kolkata (Job 260486)","date":"2026-11-28","source":"Indeed → Oracle Careers","status":"applied","emailNote":"Submitted by user on Digitide Oracle career site"},
-    {"company":"Amazon","role":"Manager I, Operations - Centralised Monitoring Response System Auditing, Hyderabad (10575597)","date":"2026-11-24","source":"Amazon.jobs","status":"applied","emailNote":"Amazon.jobs confirmed submitted; online assessment required"},
-    {"company":"Wells Fargo","role":"Customer Service Associate Manager - Hyderabad (R-587275)","date":"2026-11-23","source":"Company careers site (Workday)","status":"applied","emailNote":"Workday confirmed: Application Submitted"},
-    {"company":"Allstate India","role":"Customer Service Team Lead I (Blended) - Pune (R35432)","date":"2026-11-22","source":"Company careers site (Workday)","status":"applied","emailNote":"Workday confirmed: Application Submitted"},
-    {"company":"TCS (via MyGlit)","role":"Trainer - Voice_A_Kolkata (434137)","date":"2026-11-22","source":"MyGlit","status":"applied","emailNote":"MyGlit screening questions answered and submitted by user"},
-    {"company":"Concentrix","role":"Operations Manager I - Kolkata (R1748983)","date":"2026-11-21","source":"Company careers site (Workday)","status":"applied","emailNote":"Workday confirmed: Application Submitted"},
-    {"company":"Concentrix","role":"Team Leader, Operations - Kolkata (R1775939)","date":"2026-11-21","source":"Company careers site (Workday)","status":"applied","emailNote":"Workday confirmed: Application Submitted"},
-    {"company":"BCD Travel","role":"Manager, Contact Center Consulting (Remote, India)","date":"2026-11-20","source":"Company careers site (SuccessFactors)","status":"applied","emailNote":"Submitted by user via careers site"},
-    {"company":"Workforce Management Consultancy (via Foundit)","role":"Customer Services Executive (International Voice & Chat), Kolkata","date":"2026-11-19","source":"Foundit Quick Apply","status":"applied","emailNote":"Foundit confirmed: Applied Successfully"},
-    {"company":"Urban Company","role":"Category Operations Manager, Kolkata","date":"2026-11-19","source":"LinkedIn Easy Apply","status":"applied","emailNote":"LinkedIn confirmed: Application submitted"},
-    {"company":"Identixweb","role":"Support Team Lead (Remote), via Indeed / company careers site","date":"2026-11-19","source":"Company careers site (Keka)","status":"applied","emailNote":"Careers site confirmed: Success"},
-    {"company":"Tata Consultancy Services (via MyGlit)","role":"Team Lead - Voice_A_Kolkata (Req 434135)","date":"2026-11-17","source":"MyGlit","status":"applied","emailNote":"Submitted by user via MyGlit after screening questions"},
-    {"company":"Workforce Management Consultancy (via Foundit)","role":"International Customer Support (Team Lead / Voice), Kolkata","date":"2026-11-17","source":"Foundit Quick Apply","status":"applied","emailNote":"Foundit shows status: Applied"},
-    {"company":"Contour Education","role":"Customer Support Specialist (AU Shift) - Support Team Lead, Remote India","date":"2026-11-16","source":"LinkedIn Easy Apply","status":"applied","emailNote":"LinkedIn confirmed: application sent"},
-{"company":"JBR Consulting (via Indeed)","role":"Manager - Client Operations & Audit, Kolkata","date":"2026-11-15","source":"Indeed Apply","status":"applied","emailNote":"Applied via Indeed (confirmed by Subh)"},
-{"company":"Entrata","role":"Team Lead, India Contact Center, Pune","date":"2026-11-15","source":"Lever (via Indeed)","status":"applied","emailNote":"Lever page confirmed: Application submitted"},
-{"company":"TeamViewer","role":"Team Manager, Customer Support – APAC, Mumbai","date":"2026-11-15","source":"TeamViewer careers (via Indeed)","status":"applied","emailNote":"TeamViewer careers page confirmed: Thanks for applying"},
-{"company":"TLI Software (via Indeed)","role":"Product & Service Operations Manager (Remote)","date":"2026-11-15","source":"Indeed Apply","status":"applied","emailNote":"Indeed confirmed submission; confirmation email sent"},
-    {"company":"Wipro","role":"Process Associate - Customer Service (Voice), Kolkata (Req 209682)","date":"2026-11-15","source":"Wipro careers (via LinkedIn)","status":"applied","emailNote":"Wipro portal confirmed: application sent with cover letter"},
-    {"company":"Faiyaz Asghar (LinkedIn post, cold email)","role":"Team Leader - US Process (Voice/Blended), Kolkata","date":"2026-11-15","source":"LinkedIn post - email","status":"applied","emailNote":"Resume emailed to recruiter per the post; no reply yet"},
-{"company":"Jobgether (via LinkedIn)","role":"Team Leader - Remote Desktop Support (India, Remote)","date":"2026-11-15","source":"LinkedIn Easy Apply","status":"applied","emailNote":"LinkedIn shows Applied; awaiting response"},
-{"company":"Gear Inc. (via Indeed)","role":"Team Lead for Non Voice Process - Content Moderation, Kolkata","date":"2026-11-15","source":"Indeed Apply","status":"applied","emailNote":"Indeed confirmation email expected"},
-{"company":"Anthropic","role":"Product Support Specialist","date":"2026-11-14","source":"Greenhouse","status":"rejected","emailNote":"Greenhouse confirmation email received"},
-{"company":"Amazon","role":"Operations Manager, Operations (ID 10479764)","date":"2026-11-14","source":"Amazon.jobs","status":"applied","emailNote":"Amazon application confirmation received"},
-{"company":"Amazon","role":"Seasonal MyHR Live Support Sr. Advisor (ID 10555843)","date":"2026-11-13","source":"Amazon.jobs","status":"applied","emailNote":"Amazon application confirmation received"},
-{"company":"Emeritus","role":"Role per LinkedIn confirmation","date":"2026-11-13","source":"LinkedIn Easy Apply","status":"applied","emailNote":"LinkedIn confirmation email received"},
-{"company":"Blinkit (via Indeed)","role":"Store in house job","date":"2026-11-13","source":"Indeed Easy Apply","status":"applied","emailNote":"Indeed confirmation email received"},
-{"company":"Employer via Indeed","role":"Operations Manager","date":"2026-11-13","source":"Indeed Easy Apply","status":"applied","emailNote":"Indeed confirmation email received"},
-{"company":"Employer via Indeed","role":"Team Leader - International Voice Process, Kolkata","date":"2026-11-13","source":"Indeed Easy Apply","status":"applied","emailNote":"Indeed confirmation email received"},
-{"company":"Employer via Indeed","role":"Team Leader/Supervisor - BPO","date":"2026-11-12","source":"Indeed Easy Apply","status":"applied","emailNote":"Indeed confirmation email received"},
-{"company":"TELUS Digital","role":"Role per confirmation email","date":"2026-11-10","source":"Company site","status":"applied","emailNote":"Confirmation email received"},
-{"company":"Twilio","role":"Onboarding Operations Specialist 1","date":"2026-11-10","source":"Greenhouse","status":"applied","emailNote":"Greenhouse confirmation email received"},
-{"company":"Employer via Indeed","role":"Team Leader","date":"2026-11-09","source":"Indeed Easy Apply","status":"applied","emailNote":"Indeed confirmation email received"},
-{"company":"Employer via Indeed","role":"Team Leader - Operations","date":"2026-11-09","source":"Indeed Easy Apply","status":"applied","emailNote":"Indeed confirmation email received"},
-{"company":"Employer via Indeed","role":"Team Leader - Operations","date":"2026-10-31","source":"Indeed Easy Apply","status":"applied","emailNote":"Indeed confirmation email received"},
-{"company":"Employer via Indeed","role":"Team Manager","date":"2026-10-25","source":"Indeed Easy Apply","status":"applied","emailNote":"Indeed confirmation email received"},
-{"company":"Fresh Prints","role":"Technical Success Specialist (Remote)","date":"2026-10-25","source":"Company site","status":"applied","emailNote":"Confirmation email received"},
-{"company":"Employer via Indeed","role":"Site Supervisor and Site Manager","date":"2026-10-24","source":"Indeed Easy Apply","status":"applied","emailNote":"Indeed confirmation email received"},
-{"company":"Employer via Indeed","role":"Team Leader - Operations (BPO Outbound Sales)","date":"2026-10-24","source":"Indeed Easy Apply","status":"applied","emailNote":"Indeed confirmation email received"},
-{"company":"iCubes","role":"Customer Support Manager (Live chat and email)","date":"2026-10-24","source":"Indeed Easy Apply","status":"applied","emailNote":"Candidate declined screening assessment; no further action"},
-{"company":"LetsTransport","role":"Associate Customer Service Manager","date":"2026-10-24","source":"Indeed Easy Apply","status":"applied","emailNote":"Confirmation email received"},
-{"company":"StayVista","role":"Senior Executive - Operations","date":"2026-10-27","source":"Email","status":"rejected","emailNote":"Rejection email received"},
-{"company":"Elite Butlers (via Indeed)","role":"Executive Assistant & Administration Executive","date":"2026-10-26","source":"Indeed Easy Apply","status":"rejected","emailNote":"Rejection email received"},
-{"company":"IKEA","role":"Resolutions Team Leader-Customer Service Centre (ID 346154)","date":"2026-11-02","source":"Company site","status":"rejected","emailNote":"Rejection email received"},
-{"company":"Amazon","role":"Team Manager, Flex Investigations and Offboarding (ID 10570244)","date":"2026-11-06","source":"Amazon.jobs","status":"rejected","emailNote":"Rejection email received"},
-{"company":"Amazon","role":"Process Assistant, INFC Learning and Development (ID 10416765)","date":"2026-11-05","source":"Amazon.jobs","status":"rejected","emailNote":"Position no longer available"},
-   {"company":"ipath Infotech","role":"Team Lead - Customer Support Executive (UK Clients)","date":"2026-10-03","source":"Indeed Easy Apply","status":"applied","emailNote":"Indeed confirmation email received"},
-   {"company":"Foundever","role":"Team Leader Customer Service GGN","date":"2026-10-03","source":"Foundit Apply","status":"awaiting","emailNote":"Foundit showed Applied; redirected to company site, no confirmation email yet"},
-   {"company":"IKEA","role":"Sales Team Leader - Customer Service Centre","date":"2026-09-29","source":"Foundit Quick Apply","status":"applied","emailNote":"Foundit confirmation email received"},
-   {"company":"Norlox Solutions","role":"Team Leader - BPO Operations","date":"2026-09-29","source":"LinkedIn Easy Apply","status":"awaiting","emailNote":"submitted in-session; LinkedIn confirmed Applied"},
-   {"company":"Painflame Clinic","role":"Team Lead - Call Centre","date":"2026-09-29","source":"LinkedIn Easy Apply","status":"awaiting","emailNote":"submitted in-session; LinkedIn confirmed Applied"},
-     {
-         "company": "LiveSalesman",
-         "role": "Team Lead",
-         "date": "2026-09-26",
-         "source": "LinkedIn Easy Apply",
-         "status": "awaiting",
-         "emailNote": "submitted in-session; LinkedIn confirmed Applied"
-     },
-     {
-         "company": "HCLTech",
-         "role": "Team Lead-Voice",
-         "date": "2026-09-26",
-         "source": "Indeed -> HCLTech SAP SuccessFactors portal",
-         "status": "blocked",
-         "emailNote": "blocked: application required creating an account/signing in on career55.sapsf.eu, which is not permitted; abandoned application"
-     },
-       {
-                 "company": "Teleperformance",
-                 "role": "Team Leader",
-                 "date": "2026-09-24",
-                 "source": "Naukri",
-                 "status": "awaiting",
-                 "emailNote": "submitted in-session via Naukri Apply (Gurugram); confirmed 'You have successfully applied to Team Leader'"
-       },
-       {
-                 "company": "Kotak Mahindra Bank",
-                 "role": "Sky Service CCU - Team Leader",
-                 "date": "2026-09-24",
-                 "source": "Foundit",
-                 "status": "awaiting",
-                 "emailNote": "submitted in-session via Foundit Apply Now (Thane); status changed to Applied"
-       },
-       {
-                 "company": "Full Potential Solutions",
-                 "role": "Operations Manager | FinTech (Customer Service)",
-                 "date": "2026-09-24",
-                 "source": "Indeed -> careers.fpsinc.com",
-                 "status": "awaiting",
-                 "emailNote": "submitted in-session via FPS careers portal application form (Pune, onsite); confirmed 'Thanks for applying' page"
-       },
-       {
-                 "company": "Teleperformance",
-                 "role": "Team Leader- Operations|Domestic (Kolkata, Remote)",
-                 "date": "2026-09-24",
-                 "source": "Indeed -> Workday",
-                 "status": "blocked",
-                 "emailNote": "blocked: Workday application required creating an account with a password, which is not permitted; abandoned application"
-       },
-       {
-                 "company": "MyOperator",
-                 "role": "Customer Success Team Lead",
-                 "date": "2026-09-23",
-                 "source": "LinkedIn Easy Apply",
-                 "status": "awaiting",
-                 "emailNote": "submitted in-session via LinkedIn Easy Apply; confirmed 'Your application was sent to MyOperator!'"
-       },
-       {
-                 "company": "Kohler India",
-                 "role": "Customer Care Team Lead - Pune",
-                 "date": "2026-09-23",
-                 "source": "Indeed -> Kohler careers site (Zwayam)",
-                 "status": "awaiting",
-                 "emailNote": "submitted in-session via Kohler careers portal (careers.kohler.co.in); confirmed Thank You confirmation page"
-       },
-       {
-                 "company": "GetixHealth India",
-                 "role": "Customer Service Lead",
-                 "date": "2026-09-23",
-                 "source": "Indeed",
-                 "status": "awaiting",
-                 "emailNote": "submitted in-session via Indeed Smart Apply; confirmed 'Your application was submitted to GetixHealth India'"
-       },
-   {
-          "company": "Meazure Learning",
-          "role": "Sr. Manager, Client Satisfaction Operations",
-          "date": "2026-09-23",
-          "source": "LinkedIn -> ADP Workforce Now",
-          "status": "awaiting",
-          "emailNote": "submitted in-session; ADP confirmed We have received your application"
-     },
-     {
-          "company": "Hiresquad Resources",
-          "role": "Team Leader //Assistant Manager//International BPO",
-          "date": "2026-09-23",
-          "source": "LinkedIn Easy Apply",
-          "status": "awaiting",
-          "emailNote": "submitted in-session; LinkedIn confirmed Applied"
-     },
+  {
+   "company": "QuantumLoopAI",
+   "role": "Junior Admin Operations Associate - India Remote",
+   "date": "2026-11-27",
+   "source": "Workable",
+   "status": "applied",
+   "emailNote": "Shortlisted 2026-11-27: one-way video interview requested within 48h"
+  },
+  {
+   "company": "Digitide Solutions (formerly Conneqt)",
+   "role": "Team Leader - Kolkata (Job 260486)",
+   "date": "2026-11-28",
+   "source": "Indeed → Oracle Careers",
+   "status": "applied",
+   "emailNote": "Submitted by user on Digitide Oracle career site"
+  },
+  {
+   "company": "Amazon",
+   "role": "Manager I, Operations - Centralised Monitoring Response System Auditing, Hyderabad (10575597)",
+   "date": "2026-11-24",
+   "source": "Amazon.jobs",
+   "status": "applied",
+   "emailNote": "Amazon.jobs confirmed submitted; online assessment required"
+  },
+  {
+   "company": "Wells Fargo",
+   "role": "Customer Service Associate Manager - Hyderabad (R-587275)",
+   "date": "2026-11-23",
+   "source": "Company careers site (Workday)",
+   "status": "applied",
+   "emailNote": "Workday confirmed: Application Submitted"
+  },
+  {
+   "company": "Allstate India",
+   "role": "Customer Service Team Lead I (Blended) - Pune (R35432)",
+   "date": "2026-11-22",
+   "source": "Company careers site (Workday)",
+   "status": "applied",
+   "emailNote": "Workday confirmed: Application Submitted"
+  },
+  {
+   "company": "TCS (via MyGlit)",
+   "role": "Trainer - Voice_A_Kolkata (434137)",
+   "date": "2026-11-22",
+   "source": "MyGlit",
+   "status": "applied",
+   "emailNote": "MyGlit screening questions answered and submitted by user"
+  },
+  {
+   "company": "Concentrix",
+   "role": "Operations Manager I - Kolkata (R1748983)",
+   "date": "2026-11-21",
+   "source": "Company careers site (Workday)",
+   "status": "rejected",
+   "emailNote": "Rejection email received 2026-11-26"
+  },
+  {
+   "company": "Concentrix",
+   "role": "Team Leader, Operations - Kolkata (R1775939)",
+   "date": "2026-11-21",
+   "source": "Company careers site (Workday)",
+   "status": "applied",
+   "emailNote": "Workday confirmed: Application Submitted"
+  },
+  {
+   "company": "BCD Travel",
+   "role": "Manager, Contact Center Consulting (Remote, India)",
+   "date": "2026-11-20",
+   "source": "Company careers site (SuccessFactors)",
+   "status": "applied",
+   "emailNote": "Submitted by user via careers site"
+  },
+  {
+   "company": "Workforce Management Consultancy (via Foundit)",
+   "role": "Customer Services Executive (International Voice & Chat), Kolkata",
+   "date": "2026-11-19",
+   "source": "Foundit Quick Apply",
+   "status": "applied",
+   "emailNote": "Foundit confirmed: Applied Successfully"
+  },
+  {
+   "company": "Urban Company",
+   "role": "Category Operations Manager, Kolkata",
+   "date": "2026-11-19",
+   "source": "LinkedIn Easy Apply",
+   "status": "applied",
+   "emailNote": "LinkedIn confirmed: Application submitted"
+  },
+  {
+   "company": "Identixweb",
+   "role": "Support Team Lead (Remote), via Indeed / company careers site",
+   "date": "2026-11-19",
+   "source": "Company careers site (Keka)",
+   "status": "applied",
+   "emailNote": "Careers site confirmed: Success"
+  },
+  {
+   "company": "Tata Consultancy Services (via MyGlit)",
+   "role": "Team Lead - Voice_A_Kolkata (Req 434135)",
+   "date": "2026-11-17",
+   "source": "MyGlit",
+   "status": "applied",
+   "emailNote": "Submitted by user via MyGlit after screening questions"
+  },
+  {
+   "company": "Workforce Management Consultancy (via Foundit)",
+   "role": "International Customer Support (Team Lead / Voice), Kolkata",
+   "date": "2026-11-17",
+   "source": "Foundit Quick Apply",
+   "status": "applied",
+   "emailNote": "Foundit shows status: Applied"
+  },
+  {
+   "company": "Contour Education",
+   "role": "Customer Support Specialist (AU Shift) - Support Team Lead, Remote India",
+   "date": "2026-11-16",
+   "source": "LinkedIn Easy Apply",
+   "status": "rejected",
+   "emailNote": "Rejection email received 2026-11-25"
+  },
+  {
+   "company": "JBR Consulting (via Indeed)",
+   "role": "Manager - Client Operations & Audit, Kolkata",
+   "date": "2026-11-15",
+   "source": "Indeed Apply",
+   "status": "applied",
+   "emailNote": "Applied via Indeed (confirmed by Subh)"
+  },
+  {
+   "company": "Entrata",
+   "role": "Team Lead, India Contact Center, Pune",
+   "date": "2026-11-15",
+   "source": "Lever (via Indeed)",
+   "status": "applied",
+   "emailNote": "Lever page confirmed: Application submitted"
+  },
+  {
+   "company": "TeamViewer",
+   "role": "Team Manager, Customer Support – APAC, Mumbai",
+   "date": "2026-11-15",
+   "source": "TeamViewer careers (via Indeed)",
+   "status": "applied",
+   "emailNote": "TeamViewer careers page confirmed: Thanks for applying"
+  },
+  {
+   "company": "TLI Software (via Indeed)",
+   "role": "Product & Service Operations Manager (Remote)",
+   "date": "2026-11-15",
+   "source": "Indeed Apply",
+   "status": "applied",
+   "emailNote": "Indeed confirmed submission; confirmation email sent"
+  },
+  {
+   "company": "Wipro",
+   "role": "Process Associate - Customer Service (Voice), Kolkata (Req 209682)",
+   "date": "2026-11-15",
+   "source": "Wipro careers (via LinkedIn)",
+   "status": "applied",
+   "emailNote": "Wipro portal confirmed: application sent with cover letter"
+  },
+  {
+   "company": "Faiyaz Asghar (LinkedIn post, cold email)",
+   "role": "Team Leader - US Process (Voice/Blended), Kolkata",
+   "date": "2026-11-15",
+   "source": "LinkedIn post - email",
+   "status": "applied",
+   "emailNote": "Resume emailed to recruiter per the post; no reply yet"
+  },
+  {
+   "company": "Jobgether (via LinkedIn)",
+   "role": "Team Leader - Remote Desktop Support (India, Remote)",
+   "date": "2026-11-15",
+   "source": "LinkedIn Easy Apply",
+   "status": "applied",
+   "emailNote": "LinkedIn shows Applied; awaiting response"
+  },
+  {
+   "company": "Gear Inc. (via Indeed)",
+   "role": "Team Lead for Non Voice Process - Content Moderation, Kolkata",
+   "date": "2026-11-15",
+   "source": "Indeed Apply",
+   "status": "applied",
+   "emailNote": "Indeed confirmation email expected"
+  },
+  {
+   "company": "Anthropic",
+   "role": "Product Support Specialist",
+   "date": "2026-11-14",
+   "source": "Greenhouse",
+   "status": "rejected",
+   "emailNote": "Greenhouse confirmation email received"
+  },
+  {
+   "company": "Amazon",
+   "role": "Operations Manager, Operations (ID 10479764)",
+   "date": "2026-11-14",
+   "source": "Amazon.jobs",
+   "status": "applied",
+   "emailNote": "Amazon application confirmation received"
+  },
+  {
+   "company": "Amazon",
+   "role": "Seasonal MyHR Live Support Sr. Advisor (ID 10555843)",
+   "date": "2026-11-13",
+   "source": "Amazon.jobs",
+   "status": "applied",
+   "emailNote": "Amazon application confirmation received"
+  },
+  {
+   "company": "Emeritus",
+   "role": "Role per LinkedIn confirmation",
+   "date": "2026-11-13",
+   "source": "LinkedIn Easy Apply",
+   "status": "applied",
+   "emailNote": "LinkedIn confirmation email received"
+  },
+  {
+   "company": "Blinkit (via Indeed)",
+   "role": "Store in house job",
+   "date": "2026-11-13",
+   "source": "Indeed Easy Apply",
+   "status": "applied",
+   "emailNote": "Indeed confirmation email received"
+  },
+  {
+   "company": "Employer via Indeed",
+   "role": "Operations Manager",
+   "date": "2026-11-13",
+   "source": "Indeed Easy Apply",
+   "status": "applied",
+   "emailNote": "Indeed confirmation email received"
+  },
+  {
+   "company": "Employer via Indeed",
+   "role": "Team Leader - International Voice Process, Kolkata",
+   "date": "2026-11-13",
+   "source": "Indeed Easy Apply",
+   "status": "applied",
+   "emailNote": "Indeed confirmation email received"
+  },
+  {
+   "company": "Employer via Indeed",
+   "role": "Team Leader/Supervisor - BPO",
+   "date": "2026-11-12",
+   "source": "Indeed Easy Apply",
+   "status": "applied",
+   "emailNote": "Indeed confirmation email received"
+  },
+  {
+   "company": "TELUS Digital",
+   "role": "Role per confirmation email",
+   "date": "2026-11-10",
+   "source": "Company site",
+   "status": "applied",
+   "emailNote": "Confirmation email received"
+  },
+  {
+   "company": "Twilio",
+   "role": "Onboarding Operations Specialist 1",
+   "date": "2026-11-10",
+   "source": "Greenhouse",
+   "status": "applied",
+   "emailNote": "Greenhouse confirmation email received"
+  },
+  {
+   "company": "Employer via Indeed",
+   "role": "Team Leader",
+   "date": "2026-11-09",
+   "source": "Indeed Easy Apply",
+   "status": "applied",
+   "emailNote": "Indeed confirmation email received"
+  },
+  {
+   "company": "Employer via Indeed",
+   "role": "Team Leader - Operations",
+   "date": "2026-11-09",
+   "source": "Indeed Easy Apply",
+   "status": "applied",
+   "emailNote": "Indeed confirmation email received"
+  },
+  {
+   "company": "Employer via Indeed",
+   "role": "Team Leader - Operations",
+   "date": "2026-10-31",
+   "source": "Indeed Easy Apply",
+   "status": "applied",
+   "emailNote": "Indeed confirmation email received"
+  },
+  {
+   "company": "Employer via Indeed",
+   "role": "Team Manager",
+   "date": "2026-10-25",
+   "source": "Indeed Easy Apply",
+   "status": "applied",
+   "emailNote": "Indeed confirmation email received"
+  },
+  {
+   "company": "Fresh Prints",
+   "role": "Technical Success Specialist (Remote)",
+   "date": "2026-10-25",
+   "source": "Company site",
+   "status": "applied",
+   "emailNote": "Confirmation email received"
+  },
+  {
+   "company": "Employer via Indeed",
+   "role": "Site Supervisor and Site Manager",
+   "date": "2026-10-24",
+   "source": "Indeed Easy Apply",
+   "status": "applied",
+   "emailNote": "Indeed confirmation email received"
+  },
+  {
+   "company": "Employer via Indeed",
+   "role": "Team Leader - Operations (BPO Outbound Sales)",
+   "date": "2026-10-24",
+   "source": "Indeed Easy Apply",
+   "status": "applied",
+   "emailNote": "Indeed confirmation email received"
+  },
+  {
+   "company": "iCubes",
+   "role": "Customer Support Manager (Live chat and email)",
+   "date": "2026-10-24",
+   "source": "Indeed Easy Apply",
+   "status": "applied",
+   "emailNote": "Candidate declined screening assessment; no further action"
+  },
+  {
+   "company": "LetsTransport",
+   "role": "Associate Customer Service Manager",
+   "date": "2026-10-24",
+   "source": "Indeed Easy Apply",
+   "status": "applied",
+   "emailNote": "Confirmation email received"
+  },
+  {
+   "company": "StayVista",
+   "role": "Senior Executive - Operations",
+   "date": "2026-10-27",
+   "source": "Email",
+   "status": "rejected",
+   "emailNote": "Rejection email received"
+  },
+  {
+   "company": "Elite Butlers (via Indeed)",
+   "role": "Executive Assistant & Administration Executive",
+   "date": "2026-10-26",
+   "source": "Indeed Easy Apply",
+   "status": "rejected",
+   "emailNote": "Rejection email received"
+  },
+  {
+   "company": "IKEA",
+   "role": "Resolutions Team Leader-Customer Service Centre (ID 346154)",
+   "date": "2026-11-02",
+   "source": "Company site",
+   "status": "rejected",
+   "emailNote": "Rejection email received"
+  },
+  {
+   "company": "Amazon",
+   "role": "Team Manager, Flex Investigations and Offboarding (ID 10570244)",
+   "date": "2026-11-06",
+   "source": "Amazon.jobs",
+   "status": "rejected",
+   "emailNote": "Rejection email received"
+  },
+  {
+   "company": "Amazon",
+   "role": "Process Assistant, INFC Learning and Development (ID 10416765)",
+   "date": "2026-11-05",
+   "source": "Amazon.jobs",
+   "status": "rejected",
+   "emailNote": "Position no longer available"
+  },
+  {
+   "company": "ipath Infotech",
+   "role": "Team Lead - Customer Support Executive (UK Clients)",
+   "date": "2026-10-03",
+   "source": "Indeed Easy Apply",
+   "status": "applied",
+   "emailNote": "Indeed confirmation email received"
+  },
+  {
+   "company": "Foundever",
+   "role": "Team Leader Customer Service GGN",
+   "date": "2026-10-03",
+   "source": "Foundit Apply",
+   "status": "awaiting",
+   "emailNote": "Foundit showed Applied; redirected to company site, no confirmation email yet"
+  },
+  {
+   "company": "IKEA",
+   "role": "Sales Team Leader - Customer Service Centre",
+   "date": "2026-09-29",
+   "source": "Foundit Quick Apply",
+   "status": "applied",
+   "emailNote": "Foundit confirmation email received"
+  },
+  {
+   "company": "Norlox Solutions",
+   "role": "Team Leader - BPO Operations",
+   "date": "2026-09-29",
+   "source": "LinkedIn Easy Apply",
+   "status": "awaiting",
+   "emailNote": "submitted in-session; LinkedIn confirmed Applied"
+  },
+  {
+   "company": "Painflame Clinic",
+   "role": "Team Lead - Call Centre",
+   "date": "2026-09-29",
+   "source": "LinkedIn Easy Apply",
+   "status": "awaiting",
+   "emailNote": "submitted in-session; LinkedIn confirmed Applied"
+  },
+  {
+   "company": "LiveSalesman",
+   "role": "Team Lead",
+   "date": "2026-09-26",
+   "source": "LinkedIn Easy Apply",
+   "status": "awaiting",
+   "emailNote": "submitted in-session; LinkedIn confirmed Applied"
+  },
+  {
+   "company": "HCLTech",
+   "role": "Team Lead-Voice",
+   "date": "2026-09-26",
+   "source": "Indeed -> HCLTech SAP SuccessFactors portal",
+   "status": "blocked",
+   "emailNote": "blocked: application required creating an account/signing in on career55.sapsf.eu, which is not permitted; abandoned application"
+  },
+  {
+   "company": "Teleperformance",
+   "role": "Team Leader",
+   "date": "2026-09-24",
+   "source": "Naukri",
+   "status": "awaiting",
+   "emailNote": "submitted in-session via Naukri Apply (Gurugram); confirmed 'You have successfully applied to Team Leader'"
+  },
+  {
+   "company": "Kotak Mahindra Bank",
+   "role": "Sky Service CCU - Team Leader",
+   "date": "2026-09-24",
+   "source": "Foundit",
+   "status": "awaiting",
+   "emailNote": "submitted in-session via Foundit Apply Now (Thane); status changed to Applied"
+  },
+  {
+   "company": "Full Potential Solutions",
+   "role": "Operations Manager | FinTech (Customer Service)",
+   "date": "2026-09-24",
+   "source": "Indeed -> careers.fpsinc.com",
+   "status": "awaiting",
+   "emailNote": "submitted in-session via FPS careers portal application form (Pune, onsite); confirmed 'Thanks for applying' page"
+  },
+  {
+   "company": "Teleperformance",
+   "role": "Team Leader- Operations|Domestic (Kolkata, Remote)",
+   "date": "2026-09-24",
+   "source": "Indeed -> Workday",
+   "status": "blocked",
+   "emailNote": "blocked: Workday application required creating an account with a password, which is not permitted; abandoned application"
+  },
+  {
+   "company": "MyOperator",
+   "role": "Customer Success Team Lead",
+   "date": "2026-09-23",
+   "source": "LinkedIn Easy Apply",
+   "status": "awaiting",
+   "emailNote": "submitted in-session via LinkedIn Easy Apply; confirmed 'Your application was sent to MyOperator!'"
+  },
+  {
+   "company": "Kohler India",
+   "role": "Customer Care Team Lead - Pune",
+   "date": "2026-09-23",
+   "source": "Indeed -> Kohler careers site (Zwayam)",
+   "status": "awaiting",
+   "emailNote": "submitted in-session via Kohler careers portal (careers.kohler.co.in); confirmed Thank You confirmation page"
+  },
+  {
+   "company": "GetixHealth India",
+   "role": "Customer Service Lead",
+   "date": "2026-09-23",
+   "source": "Indeed",
+   "status": "awaiting",
+   "emailNote": "submitted in-session via Indeed Smart Apply; confirmed 'Your application was submitted to GetixHealth India'"
+  },
+  {
+   "company": "Meazure Learning",
+   "role": "Sr. Manager, Client Satisfaction Operations",
+   "date": "2026-09-23",
+   "source": "LinkedIn -> ADP Workforce Now",
+   "status": "awaiting",
+   "emailNote": "submitted in-session; ADP confirmed We have received your application"
+  },
+  {
+   "company": "Hiresquad Resources",
+   "role": "Team Leader //Assistant Manager//International BPO",
+   "date": "2026-09-23",
+   "source": "LinkedIn Easy Apply",
+   "status": "awaiting",
+   "emailNote": "submitted in-session; LinkedIn confirmed Applied"
+  },
   {
    "company": "JPMorgan Chase",
    "role": "KYC Client Data",
